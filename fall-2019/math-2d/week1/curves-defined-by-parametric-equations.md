@@ -75,15 +75,15 @@ The distance from  the origin is $e^{t}$
 
 ![Plot of example 3](./figures/parametric-ex3.1.png)
 
-$$ 0 \le t \le 2\pi $$
+$0 \le t \le 2\pi$
 
 ![Plot of example 3](./figures/parametric-ex3.2.png)
 
-$$ 0 \le t \le 4\pi $$
+$0 \le t \le 4\pi$
 
 ![Plot of example 3](./figures/parametric-ex3.3.png)
 
-$$ (-\infty, \infty) $$
+$(-\infty, \infty)$
 
 ### Example 4
 
