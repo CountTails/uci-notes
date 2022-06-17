@@ -1,18 +1,23 @@
 # Curves Defined by Parametric Equations
+
 ## Functions
 
-$$ f(x) = x^{2} $$ 
+### Definition
+
+![A function on a plane](./figures/function.png)
+
+$$ f(x) = x^{2} $$
 
 - f(x) is a function
 - defines an input x and an output y
 
-Q: Can *any* curve on a plane be the graph of a function
+Q: Can *any* curve on a plane be the graph of a function?
 
-A: Not neccesarily
+A: Not necessarily
 
 ## Parametric Curves
 
-Imagine a paritcle that moves along a curve `C`. Then both of `x` and `y` coordinates of `C` are functions of time.
+Imagine a particle that moves along a curve `C`. Then both of `x` and `y` coordinates of `C` are functions of time.
 
 $$ x = f(t) $$
 $$ y = g(t) $$
