@@ -82,8 +82,59 @@ From Math 2A, the area under a curve $F(x)$ on $[a, b]$ is $A = \int_{a}^{b} F(x
 
 ### Integrals with parametric curves
 
+For parametric equations
+
+- $x = f(t)$
+- $y = g(t)$
+
+The area under the curve on $[a, b]$ is
+
+$A = \int_{a}^{b} y \, dx = \int_{t_{1}}^{t_{2}} g(t) * f'(t) \, dt$
+
 ### Example 2
 
-### Example 3 (Arc Length)
+Let a parametric curve be represented by
+
+- $x = t^{2}$
+- $y = t^{3} - t$
+
+Find the area under the curve on the interval $[0, 1]$
+
+- $B = \int_{0}^{1} y \, dx$
+	- $= \int_{0}^{-1} (t^{3} - t)(2t) \, dt$
+	- $= \int_{0}^{-1} (2t^{4} - 2t{2}) \, dt$
+	- $= \dfrac{2}{5} t^{5} - \dfrac{2}{3} t^{3} \vert_{0}^{-1}$
+	- $= \dfrac{2}{5} (-1)^{5} - \dfrac{2}{3} (-1)^{3} = \dfrac{4}{15}$
+- $A = 2B = 2(\dfrac{4}{15}) = \dfrac{8}{15}$
+
+### Example 3
+
+Let a cycloid be represented by
+
+- $x = r(\theta - sin(\theta))$
+- $y = r(1 - cos(\theta))$
+
+Find the area under the curve on the interval $[0, 2\pi r]$
+
+- $A = \int_{0}^{2\pi r} y\, dx$
+	- $= \int_{0}^{2\pi} r(1 - cos(\theta)) r(1 - cos(\theta)) \, d\theta$
+	- $= r^{2}\int_{0}^{2\pi} 1 - 2cos(\theta) + cos^{2}(\theta) \, d\theta$
+	- $= r^{2} (0 - 2sin(\theta) + \dfrac{1}{4}sin^{2}(\theta) \vert_{0}^{2\pi})$
+	- $= r^{2} * \dfrac{3}{2} * 2\pi = 3\pi r^{2}$
+
+### Arc Length of Parametric Curves
+
+![ArcLength of parametric curve](./figures/arclength.png)
+
+- $L = \sum \sqrt{\Delta x^{2} + \Delta y^{2}}$
+- $\lim_{\Delta \to 0} = \int_{a}^{b} \sqrt{1 + (\dfrac{dy}{dx})^{2}} \, dx$
+- $L = \int_{\alpha}^{\beta} \sqrt{1 + (\dfrac{dy/dt}{dx/dt})^{2}} \dfrac{dx}{dt} \, dt$
+- $L = \int_{\alpha}^{\beta} \sqrt{(\dfrac{dx}{dt})^{2} + (\dfrac{dy}{dt})^{2}} \, dt$
+
+### Example 4
+
+### Example 5
+
+### Example 6
 
 
