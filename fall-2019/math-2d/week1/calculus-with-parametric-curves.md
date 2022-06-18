@@ -10,7 +10,7 @@ From Math 2A, $\dfrac{dy}{dx} = \lim_{\Delta x \to 0} \dfrac{\Delta y}{\Delta x}
 
 The slope of the tangent line at $A(a, f(a))$ is $f'(a) = \dfrac{df}{dx}(a)$
 
-### Derivatives of parametric curves
+### Derivatives of Parametric Curves
 
 Let a parametric curve be represented by
 
@@ -72,4 +72,18 @@ Let a parametric curve be represented by
 		- $\dfrac{d^{2}y}{dx^{2}}$
 			- $> 0$ for $t > 0$
 			- $< 0$ for $t < 0$
+## Integrals
+
+### Traditionals Integrals
+
+![Integrals on an interval](./figures/integral.png)
+
+From Math 2A, the area under a curve $F(x)$ on $[a, b]$ is $A = \int_{a}^{b} F(x) \, dx$
+
+### Integrals with parametric curves
+
+### Example 2
+
+### Example 3 (Arc Length)
+
 
