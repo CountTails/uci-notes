@@ -133,8 +133,51 @@ Find the area under the curve on the interval $[0, 2\pi r]$
 
 ### Example 4
 
+Let a parametric curve be represented by
+
+- $x = cos(t)$
+- $y = sin(t)$
+
+Find the arclength of the curve on the interval $[0, 2\pi]$
+
+- $L = \int_{0}^{2\pi} \sqrt{(-sin(t))^{2} + (cos(t))^{2}} \, dt$
+- $= \int_{0}^{2\pi} \sqrt{sin^{2}(t) + cos^{2}(t)} \, dt = \int_{0}^{2\pi} 1 \, dt$
+- $t \vert_{0}^{2\pi} = 2\pi$
+
 ### Example 5
 
+Let a parametric curve be represented by 
+
+- $x = e^{t}cos(t)$
+- $y = e^{t}sin(t)$
+
+Find the arclength of the curve on the interval $[0, 2\pi]$
+
+- $\dfrac{dx}{dt} = e^{t}cos(t) - e^{t}sin(t)$
+- $\dfrac{dy}{dt} = e^{t}sin(t) + e^{t}cos(t)$
+- $(\dfrac{dx}{dt})^{2} = e^{2t}cos^{2}(t) - 2e^{2t}sin(t)cos(t) + e^{2t}sin^{2}(t)$
+- $(\dfrac{dy}{dt})^{2} = e^{2t}sin^{2}(t) + 2e^{2t}sin(t)cos(t) + e^{2t}cos^{2}(t)$
+- $L = \int_{0}^{2\pi} \sqrt{2e^{2t}} \, dt = \sqrt{2} \int_{0}^{2\pi} e^{t} \, dt = \sqrt{2}(e^{2\pi} - 1)$
+
 ### Example 6
+
+Let a parametric curve be represented by
+
+- $x = r(\theta - sin(\theta))$
+- $y = r(\theta - cos(\theta))$
+
+Find the arclength of the curve on the interval $[0, 2\pi]$
+
+- $\dfrac{dx}{d\theta} = r(1 - cos(\theta))$
+- $\dfrac{dy}{d\theta} = rsin(\theta)$
+- $(\dfrac{dx}{d\theta})^{2} + (\dfrac{dy}{d\theta})^{2} = r^{2}(1 - cos(\theta))^{2} + r^{2}sin^{2}(\theta)$
+- $= r^{2}(1 - 2cos(\theta) + cos^{2}(\theta) + sin^{2}(\theta))$
+- $= 2r^{2}(1 - cos(\theta))$
+- $L = \int_{0}^{2\pi} \sqrt{2r^{2}(1 - cos(\theta))} \, d\theta$
+	- $cos(2\theta) = 1 - 2sin^{2}(\theta)$
+	- $cos(\theta) = 1 -2sin^{2}(\dfrac{\theta}{2})$
+- $L = 2r \int_{0}^{2\pi} \sqrt{sin^{2}(\dfrac{\theta}{2})} \, d\theta$
+- $L = 2r \int_{0}^{2\pi} sin(\dfrac{\theta}{2}) \, d\theta$
+- $L = 2r(-2cos(\dfrac{\theta}{2}) \vert_{0}^{2\pi}) = 2r(4) = 8r$
 
 
