@@ -80,7 +80,7 @@ Let a parametric curve be represented by
 
 From Math 2A, the area under a curve $F(x)$ on $[a, b]$ is $A = \int_{a}^{b} F(x) \, dx$
 
-### Integrals with parametric curves
+### Integrals with Parametric Curves
 
 For parametric equations
 

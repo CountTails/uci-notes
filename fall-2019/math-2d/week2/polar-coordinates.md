@@ -104,6 +104,6 @@ Some polar curves can be plotted by translating it to a corresponding cartesian 
 - $x = rcos(\theta) \to f(\theta)cos(\theta)$
 - $y = rsin(\theta) \to f(\theta)sin(\theta)$
 - Polar curves are parametric equations with $\theta$ as the parameter
-- The derivatives and integrals apply similarly
+- The [derivatives](../week1/calculus-with-parametric-curves.md#Derivatives) and [integrals](../week1/calculus-with-parametric-curves.md#Integrals) apply similarly
 
 
