@@ -65,6 +65,8 @@ The graph of the curve $r = f(\theta)$, or generally $F(r, \theta) = 0$, consist
 - $\theta = 1$ is a straight line
 - $\theta = -1$ is the opposite straight line
 
+### Example 1
+
 Let a polar curve be represented by
 
 - $r = 4sin(\theta)$
@@ -81,6 +83,8 @@ Let a polar curve be represented by
 | 2 | $\dfrac{5\pi}{6}$ |
 | 0 | $\pi$ |
 
+![polar curve 1](./figures/polar-curve-1.jpg)
+
 Some polar curves can be plotted by translating it to a corresponding cartesian function
 
 - $r^{2} = 4rsin(\theta)$
@@ -89,6 +93,30 @@ Some polar curves can be plotted by translating it to a corresponding cartesian 
 	- $x^{2} + y^{2} - 4y = 0$
 	- $x^{2} + (y^{2} - 4y + 4) = 4$
 	- $x^{2} + (y - 2)^{2} = 4$
+
+### Example 2
+
+Let a polar curve be represented by:
+
+- $r = cos(2\theta)$
+
+The curve generates a rose with 4 pedals.
+
+![rose](./figures/rose.jpg)
+
+### Example 3
+
+Let a polar curve be represented by:
+
+- $r = 2 -2sin(\theta)$
+
+The curve generates a fat heart.
+
+![thicc heart](./figures/thicc-heart.jpg)
+
+A better looking heart can be represented by:
+
+-$r = 2 - 2sin(\theta) + \dfrac{sin(\theta) \sqrt{\vert 2cos(\theta) \vert}}{sin(\theta) + \dfrac{3}{2}}$
 
 ## Polar Symmetry
 
