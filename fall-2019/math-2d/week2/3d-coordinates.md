@@ -9,6 +9,8 @@
 	- $y$ is the distance from the x-axis
 - divides space into 4 quadrants
 
+![Point on a plane](./figures/cartesian.jpg)
+
 ### 3D Space
 - 3 axes
 - a collection of planes
@@ -21,6 +23,8 @@
 	- thumb points along z axis
 	- fingers point along x axis
 	- arm points along y axis
+
+![Point in 3D space](./figures/3d-point.jpg)
 
 ## Distance in 3D Space
 - Distance between
@@ -40,12 +44,11 @@
 	- $z = f(x, y) \to$ a surface in 3D space
 - Examples
 	- $z = 1 \to$ a plane parallel to the $xy$ plane
-	- $x^{2} + y^{2} = 1$  with bound on $z = 1$ 
-		- a circle with radius 1
-		- circle is parallel to the $xy$ plane
+		- ![Plane in space](./figures/plane.jpg)
 	- $x^{2} + y^{2} = 1$ with no bound on $z$
 		- a cyclinder with radius 1
 		- height is parallel to the z axis
+		- ![Cyclinder in space](./figures/cylinder.jpg)
 
 ## Spheres
 
@@ -53,6 +56,8 @@
 
 - let $(a, b, c)$ be the center of a sphere.
 	- $r^{2} = (x - x_{1})^{2} + (y - y_{1})^{2} (z - z_{1})^{2}$
+
+![Sphere in space](./figures/sphere.jpg)
 
 ### Distance between spheres
 
