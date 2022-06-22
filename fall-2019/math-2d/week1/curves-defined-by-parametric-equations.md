@@ -4,7 +4,7 @@
 
 ### Definition
 
-![A function on a plane](./figures/function.png)
+![A function on a plane](./figures/function.jpg)
 
 $f(x) = x^{2}$
 
@@ -23,8 +23,6 @@ Imagine a particle that moves along a curve $C$. Then both of $x$ and $y$ coordi
 
 - $x = f(t)$
 - $y = g(t)$
-
-![Particle path](./figures/particle.png)
 
 A curve $C$ determined by the parametric equations $x = f(t)$  and $y = g(t)$ is called a **parametric curve** with parameter *t*
 
@@ -45,7 +43,7 @@ Eliminating the parameter *t*
 
 Plot
 
-![Plot of example 1](./figures/parametric-ex1.png)
+![Plot of example 1](./figures/parametric-ex1.jpg)
 
 Table of values
 
@@ -64,7 +62,7 @@ Table of values
 
 The particle moves around the unit circle starting and ending at $(1, 0)$.
 
-![Plot of example 2](./figures/parametric-ex2.png)
+![Plot of example 2](./figures/parametric-ex2.jpg)
 
 ### Example 3
 
@@ -73,15 +71,15 @@ The particle moves around the unit circle starting and ending at $(1, 0)$.
 
 The distance from  the origin is $e^{t}$
 
-![Plot of example 3](./figures/parametric-ex3.1.png)
+![Plot of example 3](./figures/parametric-ex3.1.jpg)
 
 $0 \le t \le 2\pi$
 
-![Plot of example 3](./figures/parametric-ex3.2.png)
+![Plot of example 3](./figures/parametric-ex3.2.jpg)
 
 $0 \le t \le 4\pi$
 
-![Plot of example 3](./figures/parametric-ex3.3.png)
+![Plot of example 3](./figures/parametric-ex3.3.jpg)
 
 $(-\infty, \infty)$
 
@@ -96,11 +94,9 @@ use $sin^{2}(t) + cos^{2}(t) = 1$
 
 $x^{2} + y = 1 \to y = 1 - x^{2}$
 
-![Wrong plot of example 4](./figures/parametric-ex4-wrong.png)
+Be careful when plotting, the direction of the graph can change its shape.
 
-This is not the graph of a parametric curve.
-
-![Correct plot of example 4](./figures/parametric-ex4-correct.png)
+![Plot of example 4](./figures/parametric-ex4.jpg)
 
 This is the graph of a parametric curve.
 
@@ -108,9 +104,14 @@ This is the graph of a parametric curve.
 
 A curve traced out by a point $P$ on the circumference of a circle
 
-![Cycloid trace](figures/cycloid-roll.png)
-
 - $x =  0M - rsin(\theta) = r\theta - sin(\theta) = r(\theta - sin(\theta))$
 - $y = r - CM = r - rcos(\theta) = r(1 - cos(\theta))$
 
-![Cycloid derivation](figures/cycloid-derive.png)
+### Example 5
+
+Let the following parametric equations represent a cycloid with $r = 2$ 
+
+- $x = 2(\theta - sin(\theta))$
+- $y = 2(1 - cos(\theta))$
+
+![Cycloid example](./figures/cycloid-roll.jpg)
