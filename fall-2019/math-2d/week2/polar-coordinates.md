@@ -3,25 +3,23 @@
 
 Cartesians coordinates were introduced by French mathematician and philosopher René Decartes in 1637.
 
-![Cartesian coordinates](./figures/cartesian.png)
+![Cartesian coordinates](./figures/cartesian.jpg)
 
 Polar coordinates were introduced by Isaac Newton in 1671.
-
-![Polar coordinates](./figures/polar.png)
 
 ## Examples of polar coordinates
 
 $P(1, \dfrac{\pi}{4})$
 
-![P on polar plane](./figures/polar-p.png)
+![P on polar plane](./figures/polar-p.jpg)
 
 $Q(2, \dfrac{5\pi}{4})$
 
-![Q on polar plane](./figures/polar-q.png)
+![Q on polar plane](./figures/polar-q.jpg)
 
 $R(\dfrac{3}{2}, \pi)$
 
-![R on polar plane](./figures/polar-r.png)
+![R on polar plane](./figures/polar-r.jpg)
 
 ## Identical points
 
