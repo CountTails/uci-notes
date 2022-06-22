@@ -37,8 +37,6 @@ Proof: using law of cosines
 - Expand and solve for $\vert \overrightarrow{a} \vert \vert \overrightarrow{b} \vert$
 - $\overrightarrow{a} \cdot \overrightarrow{b} = \vert \overrightarrow{a} \vert \vert \overrightarrow{b} \vert cos(\theta)$
 
-![Dot Product Proof](./figures/dot-product-proof.png)
-
 If $\theta = \dfrac{\pi}{2}$ then $cos(\theta) = 0 \therefore \overrightarrow{a} \cdot \overrightarrow{b} = 0$
 
 If $\overrightarrow{a} \cdot \overrightarrow{b} = 0$, then $\overrightarrow{a}$ and $\overrightarrow{b}$ are perpendicular to each other
