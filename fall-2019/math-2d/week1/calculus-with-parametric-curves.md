@@ -4,7 +4,7 @@
 
 ### Traditional Derivatives
 
-![Derivative at a point](./figures/traditional-derivative.png)
+![Derivative at a point](./figures/derivative.jpg)
 
 From Math 2A, $\dfrac{dy}{dx} = \lim_{\Delta x \to 0} \dfrac{\Delta y}{\Delta x}$
 
@@ -76,7 +76,7 @@ Let a parametric curve be represented by
 
 ### Traditionals Integrals
 
-![Integrals on an interval](./figures/integral.png)
+![Integrals on an interval](./figures/integral.jpg)
 
 From Math 2A, the area under a curve $F(x)$ on $[a, b]$ is $A = \int_{a}^{b} F(x) \, dx$
 
@@ -123,8 +123,6 @@ Find the area under the curve on the interval $[0, 2\pi r]$
 	- $= r^{2} * \dfrac{3}{2} * 2\pi = 3\pi r^{2}$
 
 ### Arc Length of Parametric Curves
-
-![ArcLength of parametric curve](./figures/arclength.png)
 
 - $L = \sum \sqrt{\Delta x^{2} + \Delta y^{2}}$
 - $\lim_{\Delta \to 0} = \int_{a}^{b} \sqrt{1 + (\dfrac{dy}{dx})^{2}} \, dx$
