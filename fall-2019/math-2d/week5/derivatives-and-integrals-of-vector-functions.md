@@ -41,6 +41,8 @@ Thus, the tangent line at $t = 1$ is:
 
 $\dfrac{x - 1}{1} = \dfrac{y - 1}{2} = \dfrac{z - 1}{3}$
 
+![Tangent example](./figures/tangent-ex.jpg)
+
 ## Second Derivative
 
 The second derivative of a vector function is simply the derivative of the vector function's derivative.
