@@ -87,3 +87,46 @@ This method is not required to show a limit exists, typically exhausting a few d
 
 ## Continuity
 
+### Definition
+
+A function $f(x, y)$ is called continuous at $(a, b)$ if 
+
+1. $\lim_{(x, y) \to (a, b)} \, f(x, y)$ exists
+2. $f(a, b)$ is defined
+3. $f(a, b) = \lim_{(x, y) \to (a, b)} \, f(x, y)$
+
+A function $f(x, y)$ is continuous on domain $D$ if $f$ is continuous an all points $(a, b) \in D$
+
+Some functions that are always continuous on their domains are:
+
+- Polynomials of two or more variables
+- rational functions
+
+### Examples
+
+#### Example 6
+
+Let $g(x, y) = \begin{cases} \dfrac{x^{2} - y^{2}}{x^{2} + y^{2}},& \text{if } (x, y) \ne (0, 0) \\ 0,& \text{if } (x, y) = (0, 0) \end{cases}$
+
+$g(x, y)$ is not continuous at the origin because $\lim_{(x, y) \to (0, 0)}\, g(x, y)$ does not exist
+
+#### Example 7
+
+Let $h(x, y) = \begin{cases} \dfrac{2x^{2} y}{x^{2} + y^{2}},& \text{if } (x, y) \ne (0, 0) \\ 0,& \text{if } (x, y) = (0, 0) \end{cases}$
+
+if $(x, y) \ne (0, 0)$, $h(x, y)$ is a rational function.
+
+$\lim_{(x, y) \to (0, 0)} \, \dfrac{2x^{2}y}{x^{2} + y^{2}} = 0$ and $h(0, 0) = 0$
+
+$\therefore \, h(x, y)$ is continous at the origin
+
+#### Example 8
+
+Let $f(x, y, z) = \begin{cases} \dfrac{x^{2} + y^{2} + 1}{x^{2} + y^{2} + z^{2} - 4},& \text{if } (x, y, z) \in \mathbb{R}^{3} \\ 1,& \text{if } x^{2} + y^{2} + z^{2} \ne 4 \end{cases}$
+
+$f$ is a rational function if $x^{2} + y^{2} + z^{2} = 4$ is not satisfied. For any $P(a, b, c)$ on $x^{2} + y^{2} + z^{2} = 4$
+
+$\lim_{(x, y, z) \to (a, b, c)} \, f(x, y, z) = \pm \infty$
+
+$f$ is not continuous on the sphere $x^{2} + y^{2} + z^{2} = 4$
+
