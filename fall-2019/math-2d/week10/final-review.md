@@ -105,7 +105,44 @@ $\overrightarrow{a} \cdot \left( \overrightarrow{b} \times \overrightarrow{c} \r
 
 ## Chapter 12.5
 
+Equations for lines in 3d space: $a$, $b$, and $c$ are the directional numbers of the vector that describes the line.
+
+| Equation Type | Form |
+| --- | --- |
+| Vector | $\overrightarrow{r}(t) = \langle x_{0}, y_{0}, z_{0} \rangle + \langle a, b, c \rangle t$
+| Parametric | $\begin{cases} x = x_{0} + at \\ y = y_{0} + bt \\ z = z_{0} + bt\end{cases}$ |
+| Symmetric | $\dfrac{x - x_{0}}{a} = \dfrac{y - y_{0}}{b} = \dfrac{z - z_{0}}{c}$ |
+
+Equation for a plane: a, b, and c are the directional numbers of the vector normal to the plane. They take the form of $a(x-x_{0})+b(y-y_{0})+c(z-z_{0})=0$
+
+### Intersections
+
+| Step | Between 2 lines | Between 2 planes | Between a line and a plane |
+| --- | --- | --- | --- |
+| 1 | Obtain parametric equations for both lines | Direction of line is $n_{1} \times n_{2}$ (cross product of the planes' normal vectors) | Obtain the parametric equations for the line |
+| 2 | fix one variable | Obtain a point on the line by fixing one variable and solving for the remaining two using the plane equations | Substitute parametric equations into the plane equations |
+| 3 | solve for the remaining two | | solve for $t$ and plug $t$ into parmetric equations to obtain a point |
+| 4 | check that the resulting point satisfies both equations | | |
+
+### Angles
+
+$cos(\theta) = \dfrac{n_{1} \cdot n_{2}}{\vert n_{1} \vert \vert n_{2} \vert}$ is the angle between planes. Lines will use directional vectors instead
+
+### Distances
+
+$d = \dfrac{\vert a(x_{1} - x_{0}) + b(y_{1} - y_{0}) + c(z_{1} - z_{0}) \vert}{\sqrt{a^{b} + b^{2} + c^{2}}}$ is the distance from a point to a plane. Lines can be viewed as parallel planes and the normal vector is the cross product of the directional vectors
+
 ## Chapter 12.6
+
+| Surface name | Form | Extra info |
+| --- | --- | --- |
+| Cylinders | $z = x^{2}$ or $x^{2} + y^{2} = 1$ | 3D equation that does not contain 3 variables. Not dependent on missing variable
+| Ellipsoid | $\dfrac{x^{2}}{a^{2}} + \dfrac{y^{2}}{b^{2}} + \dfrac{z^{2}}{c^{2}} = 1$ | Becomes a sphere if $a = b = c$ |
+| Elliptic Paraboloid | $\dfrac{z}{c} = \dfrac{x^{2}}{a^{2}} + \dfrac{y^{2}}{b^{2}}$ | |
+| Hyperbolic Parabloloid | $\dfrac{z}{c} = \dfrac{x^{2}}{a^{2}} - \dfrac{y^{2}}{b^{2}}$ | | 
+| Cone | $\dfrac{z^{2}}{c^{2}} = \dfrac{x^{2}}{a^{2}} + \dfrac{y^{2}}{b^{2}}$ | |
+| Hyperboloid of one sheet | $\dfrac{x^{2}}{a^{2}} + \dfrac{y^{2}}{b^{2}} - \dfrac{z^{2}}{c^{2}} = 1$ | One term is negative, the rest positive |
+| Hyperboloid of two sheets | $-\dfrac{x^{2}}{a^{2}}  \dfrac{y^{2}}{b^{2}} + \dfrac{z^{2}}{c^{2}} = 1$ | One term is positive, the rest negative |
 
 ## Chapter 13
 
