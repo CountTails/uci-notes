@@ -146,6 +146,103 @@ $d = \dfrac{\vert a(x_{1} - x_{0}) + b(y_{1} - y_{0}) + c(z_{1} - z_{0}) \vert}{
 
 ## Chapter 13
 
+### Limits
+
+if $\overrightarrow{r}(t) = \langle f(t), g(t), h(t) \rangle$ then $\lim \limits_{t \to a} \overrightarrow{r}(t) = \langle \lim \limits_{t \to a} f(t), \lim \limits_{t \to a} g(t), \lim \limits_{t \to a} h(t) \rangle$
+
+### Derivatives
+
+$\overrightarrow{r'}(t) = \langle f'(t), g'(t), h'(t) \rangle$
+
+### Integrals
+
+$\int \limits_{a}^{b} \overrightarrow{r}(t) \, dt = \langle \int \limits_{a}^{b} f(t) \, dt, \int \limits_{a}^{b} g(t) \, dt, \int \limits_{a}^{b} h(t) \, dt \rangle$
+
+The length of $\overrightarrow{r}(t)$ is $L = \int \limits_{a}^{b} \sqrt{\left( \dfrac{dx}{dt} \right)^{2} + \left( \dfrac{dy}{dt} \right)^{2} + \left( \dfrac{dz}{dt} \right)^{2}}$
+
+Arc length function: Let $s$ be the length of the curve starting  from time $a$ to time $t$. Evaluate the arc length and solve for $t$ in terms of $s$. Then substitute $t(s)$ into $r(t)$
+
+Curvature: $\kappa(t) = \dfrac{\vert r'(t) \times r''(t) \vert}{\vert r'(t) \vert^{3}}$
+
 ## Chapter 14
 
+$\lim \limits_{(x, y) \to (a, b)} f(x, y)$ does not exist if two paths return different limits. Paths are determined by a line or function that passes through the limits.
+
+If multiple paths return the same limit, use squeeze theroem. Always directly substitute first.
+
+$f(x, y)$ is continuous at $(a, b)$ if $f(a, b) = \lim \limits_{(x, y) \to (a, b)} f(x, y)$
+
+$f_{x}(x, y) = \lim \limits_{h \to 0} \dfrac{f(x + h, y) - f(x, y)}{h}$ is the partial derivative of $f$ with respect to $x$. Differentiate $x$ and treat $y$ as a constant. Similarly, for $f_{y}(x, y)$, differentiate $y$ and treat $x$ as a constant.
+
+If $f(x, y)$ is continuous on its domain, then $f_{xy}(a, b) = f_{yx}(a, b)$
+
+Tangent plane to $f(x, y)$ at $(x_{0}, y_{0}, z_{0})$: $z = z_{0} + f_{x}(x_{0}, y_{0})(x - x_{0}) + f_{y}(x_{0}, y_{0})(y - y_{0})$
+
+The tangent plane can be the linearization of $f$ if $f$ is differentiable. $f$ is differentiable if its partial derivatives are continuous at $(x_{0}, y_{0}, z_{0})$
+
+$\Delta z = f(x + \Delta x, y + \Delta y) - f(x, y)$ and $dz = f_{x}(x, y) \, dx + f_{y}(x, y) \, dy$
+
+Suppose $f(x, y)$ is differentiable and $x = g(t)$ and $y = h(t)$ then $\dfrac{dz}{dt} = \dfrac{\partial f}{\partial x} * \dfrac{dx}{dt} + \dfrac{\partial f}{\partial y} * \dfrac{dy}{dt}$
+
+Suppose $f(x, y)$ is differentiable and $x = g(s, t)$ and $y = h(s, t)$ then $\dfrac{\partial z}{\partial s} = \dfrac{\partial f}{\partial x} * \dfrac{\partial x}{\partial s} + \dfrac{\partial f}{\partial y} * \dfrac{\partial y}{\partial s}$ and $\dfrac{\partial z}{\partial t} = \dfrac{\partial f}{\partial x} * \dfrac{\partial x}{\partial t} + \dfrac{\partial f}{\partial y} * \dfrac{\partial y}{\partial t}$ 
+
+If $F(x, y) = 0$ or $F(x, f(x)) = 0$ such that $y$ is a function of $x$ and $F$ is differentiable then $\dfrac{dy}{dx} = -\dfrac{F_{x}}{F_{y}}$
+
+If $z = f(x, y)$ is given as $F(x, y, z) = 0$ or $F(x, y, f(x, y)) = 0$ then $\dfrac{\partial z}{\partial x} = -\dfrac{\partial F / \partial s}{\partial F / \partial z}$ and $\dfrac{\partial z}{\partial y} = - \dfrac{\partial F / \partial y}{\partial F / \partial z}$
+
+$D_{u}f(x, y) = f_{x}(x, y)a + f_{y}(x, y)b$ where $u = \langle a, b \rangle$ is a unit vector
+
+$D_{u}f(x, y) = f_{x}(x, y)cos(\theta) + f_{y}(x, y)sin(\theta)$ where $\theta$ is the indicated direction
+
+$\triangledown f(x, y) = \langle f_{x}(x, y), f_{y}(x, y) \rangle$
+
+$D_{u}f(x, y) =  \triangledown f(x, y) \cdot \overrightarrow{u}$
+
+The max value of directional derivative is $\vert \triangledown f(x, y) \vert$ when $\overrightarrow{u}$ has the same direction as $\triangledown f$
+
+Critical points are obtained when $f_{x}(x, y) = 0$ and $f_{y}(x, y) = 0$ 
+
+Second derivatite test: $D(a, b) = f_{xx}(a, b)f_{yy}(a, b) - \left( f_{xy}(a, b) \right)^{2}$
+
+- If $D > 0$ and $f_{xx} > 0$ then $(a, b)$ is a local min
+- If $D > 0$ and $f_{xx} < 0$ then $(a, b)$ is a local max
+- If $D < 0$ then $(a, b)$ is a saddle point
+- If $D = 0$ then no information about $(a, b)$ can be determined
+
+For absolute max and min values
+
+1. Find the local extrema inside the region $D$
+2. Find the extrema on the boundaries of the region $D$
+3. The largest is absolute max; the smallest is the absolute min
+
+For absolute max and min values given a restriction (or two)
+
+- One restriction: $\triangledown f = \lambda \triangledown g$; expand the vector equation and solve
+- Two restrictions: $\triangledown f = \lambda \triangledown g + \mu \triangledown h$; expand the vector equation and hope for the best
+
 ## Chapter 15
+
+$\iint \limits_{R} f(x, y) \, dA = \sum \limits_{i = i}^{m} \sum \limits_{j = 1}^{n} f(x_{ij}^{*}, y_{ij}^{*}) \Delta A$ 
+$= f(x_{0}, y_{0}) \Delta A + f(x_{1}, y_{0}) + \Delta A + f(x_{0}, y_{1}) \Delta A + f(x_{1}, y_{1}) \Delta A + ... + f(x_{m}, y_{n}) \Delta A$
+
+$\iint \limits_{R} f(x, y) \, dA = \int \limits_{a}^{b} \int \limits_{c}^{d} f(x, y)\, dy \, dx$ where $R = [a, b] \times [c, d]$ and $dA = dy * dx$
+
+Integrate with respect to the indicate variable, treat others a s constants
+
+If $f$ is continuous on the rectangle $R = [a, b] \times [c, d]$ then  $\int \limits_{a}^{b} \int \limits_{c}^{d} f(x, y)\, dy \, dx = \int \limits_{c}^{d} \int \limits_{a}^{b} f(x, y)\, dx \, dy$
+
+If $f$ is continuous on a region $D$ such that $D = \{ (x, y) \vert a \le x \le b \, and \, g_{1}(x) \le y \le g_{2}(x) \}$ then $\iint \limits_{D} f(x, y) \, dA = \int \limits_{a}^{b} \int \limits_{g_{1}(x)}^{g_{2}(x)} f(x, y) \, dy \, dx$
+
+If $f$ is continuous on a region $D$ such that $D = \{ (x, y) \vert h_{1}(y) \le x \le h_{2}(y) \, and \, c \le y \le d \}$ then $\iint \limits_{D} f(x, y) \, dA = \int \limits_{c}^{d} \int \limits_{h_{1}(y)}^{h_{2}(y)} f(x, y) \, dx \, dy$
+
+$\iint \limits_{D} 1 \, dA$ is the area of the region $D$
+
+If $m \le f(x, y) \le M \forall (x, y) \in D$, then $m * A(D) \le \iint \limits_{D} f(x, y) \, dA \le M *A(D)$ where $A(D)$ is the area of the region $D$
+
+Change to polar coordinates
+
+$\iint \limits_{R} f(x, y) \, dA = \int \limits_{\alpha}^{\beta} \int \limits_{a}^{b} f(rcos(\theta), rsin(\theta) \, rdrd\theta$
+
+If $f$ is continuous on a polar region of the form $D =\{ (r, \theta) \vert \alpha \le \theta \le \beta \, and \, h_{1}(\theta) \le r \le h_{2}(\theta) \}$, then $\iint \limits_{D} f(x, y) \, dA = \int \limits_{\alpha}^{\beta} \int \limits_{h_{1}(\theta)}^{h_{2}(\theta)} f(rcos(\theta), rsin(\theta)) \, rdrd\theta$
+
+This can be used to find the area enclosed by a polar curve
