@@ -13,24 +13,27 @@ clean:
 	rm -rf $(EXPORTDIR)
 
 prepare:
-	for week in 1 2 3 4 5 6 7 8 9 10 ; do \
+	@echo "Prepare $(EXPORTDIR)"
+	@for week in 1 2 3 4 5 6 7 8 9 10 ; do \
 		mkdir -p $(EXPORTDIR)/week$${week} ; \
 	done
 
 exportall:
 	@echo "Exporting all notes"
-	for name in $(shell ls $(shell pwd)) ; do \
+	@for name in $(shell ls $(shell pwd)) ; do \
 		if  [[ -d $${name} ]] && [[ "$${name:0: 4}" == "week"  ]]  ; then \
 			make exportdir DIR=$${name} ; \
 		fi \
 	done
+	@echo "Exported all notes to $(EXPORTDIR)"
 
 exportdir: checkdirdefined checkdirexists
-	for file in $(shell ls $(DIR)) ; do \
+	@for file in $(shell ls $(DIR)) ; do \
 		if [ "$${file: -3}" == ".md" ] ; then \
 			make exportfile FILE=$(DIR)/$${file} ; \
 		fi \
 	done
+	@echo "Exported $(DIR) -> $(EXPORTDIR)/$(DIR)"
 
 checkdirdefined:
 ifdef DIR
@@ -48,13 +51,14 @@ else
 endif
 
 exportfile: checkfiledefined checkfileexists prepare
-	for name in $(subst /, ,$(FILE)) ; do \
+	@for name in $(subst /, ,$(FILE)) ; do \
 		if [ "$${name: -3}" == ".md" ] ; then \
 			pandoc -V geometry:margin=1in -o ../pdf/$(strip $(subst .md,.pdf, $(FILE))) $${name} ; \
 		else \
 			cd $${name} ; \
 		fi \
 	done
+	@echo "Exported $(FILE) -> $(EXPORTDIR)/$(strip $(subst .md,.pdf, $(FILE)))"
 	
 # pandoc -V geometry:margin=1in -o ./pdf/$(strip $(subst .md,.pdf, $(FILE))) $(FILE)
 
