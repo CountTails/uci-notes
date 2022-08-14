@@ -43,7 +43,7 @@ Iterated integrals
 - simply integrate twice
 	- once with respect to y
 	- once with respece to x
-- $\iint \limits_{R} f(x, y) \, dA = \int \limits_{c}^{d} f(x, y_ \, dy = A(x) \to \int \limits_{a}^{b} A(x) \, dx$
+- $\iint \limits_{R} f(x, y) \, dA = \int \limits_{c}^{d} f(x, y) \, dy = A(x) \to \int \limits_{a}^{b} A(x) \, dx$
 - $\int \limits_{a}^{b} [\int \limits_{c}^{d} f(x, y) \, dy] \, dx$
 - $\int \limits_{c}^{d} [\int \limits_{a}^{b} f(x, y) \, dx] \, dy$
 

@@ -15,52 +15,34 @@ Suppose:
 Proof:
 
 $$
-	\begin{equation}
 		(1): (c_{1})(a_{1}) + (c_{2})(a_{2}) + (c_{3})(a_{3}) = 0 
-	\end{equation}
 $$
 $$
-	\begin{equation}
 		(2): (c_{1})(b_{1}) + (c_{2})(b_{2}) + (c_{3})(b_{3}) = 0 
-	\end{equation}
 $$
 $$
-	\begin{equation}
 		(2) * a_{3} = c_{1}b_{1}a_{3} + c_{2}b_{2}a_{3} + c_{3}b_{3}a_{3} = 0
-	\end{equation}
 $$
 $$
-	\begin{equation}
 		(a_{1}b_{3} - a_{3}b_{1})c_{1} + (a_{2}b_{3} - a_{3}b_{2})c_{2} = 0
-	\end{equation}
 $$
 $$
-	\begin{equation}
 		c_{1} = a_{2}b_{3} - a_{3}b_{2}
-	\end{equation}
 $$
 $$
-	\begin{equation}
 		c_{2} = a_{3}b_{1} - a_{1}b_{3}
-	\end{equation}
 $$
 
 Plug $c_{1}$ and $c_{2}$ into $(1)$
 
 $$
-	\begin{equation}
 		a_{1}(a_{2}b_{3} - a_{3}b_{2}) + a_{2}(a_{3}b_{1} - a_{1}b_{3}) + a_{3}b_{3} = 0
-	\end{equation}
 $$
 $$
-	\begin{equation}
 		c_{3} = a_{1}b_{2} - a_{2}b_{1}
-	\end{equation}
 $$
 $$
-	\begin{equation}
 		\overrightarrow{a} \times \overrightarrow{b} = <a_{2}b_{3} - a_{3}b_{2}, a_{3}b_{1} - a_{1}b_{3}, a_{1}b_{2} - a_{2}b_{1}> = (a_{2}b_{3} - a_{3}b_{2})\overrightarrow{i} + (a_{3}b_{1} - a_{1}b_{3})\overrightarrow{j} + (a_{1}b_{2} - a_{2}b_{1})\overrightarrow{k}
-	\end{equation}
 $$
 
 By notion of determinants
@@ -68,7 +50,6 @@ By notion of determinants
 note: $det(\begin{bmatrix} a & b \\ c & d \end{bmatrix}) = ad - bc$
 
 $$
-	\begin{equation}
 		\overrightarrow{a} \times \overrightarrow{b} =
 			\begin{bmatrix}
 				a_{2} & a_{3} \\
@@ -84,7 +65,6 @@ $$
 				a_{2} & a_{2} \\
 				b_{2} & b_{2}
 			\end{bmatrix} \overrightarrow{k}
-	\end{equation}
 $$
 
 ## Direction and Magnitude of Cross Product
