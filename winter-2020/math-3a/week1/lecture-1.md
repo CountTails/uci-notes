@@ -31,7 +31,7 @@ A linear system with at least one solution is **consistent** and is **inconsiste
 ### Examples
 
 $$
-System =\begin{cases}
+\begin{cases}
 3x_{1} - x_{2} = 7 \\
 2x_{1} + 3x_{2} = 1
 \end{cases}
@@ -40,7 +40,7 @@ $$
 This system has one solution $(2, -1)$, where the two lines intersect
 
 $$
-System = \begin{cases}
+\begin{cases}
 x_{1} - x_{2} = 3 \\
 -2x_{1} + 2x_{2} = 1
 \end{cases}
@@ -49,7 +49,7 @@ $$
 This system has no solutions
 
 $$
-System = \begin{cases}
+\begin{cases}
 3x_{1} + 5x_{2} = -1 \\
 -15x_{1} - 25x_{2} = 5
 \end{cases}
