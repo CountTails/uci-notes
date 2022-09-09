@@ -238,7 +238,93 @@ Network Flow
 
 ## Linear independence
 
+An Indexed set of vectors is linearly independent if $x_{1}v_{1} + x_{2}v_{2} + ... + x_{p}v_{p} = 0$ has only the trivial solution
+
+An Indexed set of vectors is linearly dependent if $x_{1}v_{1} + x_{2}v_{2} + ... + x_{p}v_{p} = 0$ has a nontrivial solution
+
+Dependence relations come from one nontrivial solution
+
+Suppose $A$ is a coefficient matrix. $A$ is linearly independent if and only if $A\overrightarrow{x} = \overrightarrow{0}$ has only the trivial solution
+
+The columns of $A$ are linearly independent if there is no free variables/a unique solution that is the trivial solution
+
+Set of one vector $\{v\}$ is linearly independent if and only if v is not the zero vector
+
+Set of two vectors $\{v1,v2\}$ is linearly independent if and only if $v_{1} \ne cv_{2}$
+
+An indexed set of two or more vectors is linearly dependent if at least one vector in the set is a linear combination of the rest. *This does not imply that all vectors in the set are linear combinations of the rest*
+
+If a set of vectors contains more vectors than each vector has entries, then it is linearly dependent
+
+If # rows < # columns, the matrix is linearly dependent
+
+*Nothing can be determined if  # rows > # columns*
+
+If a set of vectors contains the zero vector, then the set is linearly dependent
+
 ## Linear transformations
+
+A transformation of T from $\mathbb{R}^{n}$ to $\mathbb{R}^{m}$ is a rule that assigns each vector $\overrightarrow{x}$ in $\mathbb{R}^{n}$ to a vector $T(\overrightarrow{x})$ in $\mathbb{R}^{m}$
+
+The set $\mathbb{R}^{n}$ is the domain of T
+
+The set $\mathbb{R}^{m}$ is the codomain of T
+
+For each $\overrightarrow{x}$ in $\mathbb{R}^{n}$,  the vector $T(\overrightarrow{x})$ in $\mathbb{R}^{m}$ is the image of $\overrightarrow{x}$
+
+The set of all images is the range of $T(\overrightarrow{x})$
+
+The domain of T is $\mathbb{R}^{n}$ (number of columns in A)
+
+The codomain of T is $\mathbb{R}^{m}$ (number of rows in A)
+
+The range of T is the set of all linear combinations of the columns of $A$ or the span of $A$
+
+A transformation is linear if 
+
+- $T(u+v)=T(u)+T(v)$ for all vectors u and v in the domain of T
+- $T(cu)=cT(u)$ for all scalars c and vectors u in the domain of T
+- Every matrix transformation is a linear transformation
+
+If T is a linear transformation
+- $T(0)=0$ (The origin stays fixed)
+- $T(cu+dv)=cT(u)+dT(v)$ for all scalars c, d and all vectors u, v
 
 ## The matrix of linear transformations
 
+Let T from $\mathbb{R}^{n}$ to $\mathbb{R}^{m}$ be a linear transformation
+
+- A unique matrix A exists such that $T(x) = Ax$ for all $x$ in $\mathbb{R}^{m}$
+- A=$\begin{bmatrix} T(e_{1}) & ... & T(e_{n}) \end{bmatrix}$
+
+A is called the standard matrix for the linear transformation 
+
+Given T from $\mathbb{R}^{n}$ to $\mathbb{R}^{m}$ be a linear transformation:
+
+- The dimensions of the standard matrix will be m by n
+- (swap the domain and codomain)
+
+A transformation T is said to be "onto $\mathbb{R}^{m}$"
+
+- if each b in $\mathbb{R}^{m}$ is the image of at least one x in $\mathbb{R}^{n}$
+- (The range and codomain of T  are the same)
+
+A transformation T  is not "onto $\mathbb{R}^{m}$" 
+
+- when there is some b in $\mathbb{R}^{m}$ such that T(x) = b has no solution
+
+A transformation T is "one-to-one" 
+
+- if each b in $\mathbb{R}^{m}$ is the image of at most one x in $\mathbb{R}^{n}$
+- T(x) = b has either a unique solution or none at all
+
+A transformation T is not "one-to-one"
+
+- if some b in $\mathbb{R}^{m}$ is the image of more than one vector in $\mathbb{R}^{n}$
+
+Let T from $\mathbb{R}^{n}$ to $\mathbb{R}^{m}$ be a linear transformation. T is "one-to-one" if and only if T(x) = 0 has only the trivial solution
+
+Let T from $\mathbb{R}^{n}$ to $\mathbb{R}^{m}$ be a linear transformation, and let A be the standard matrix for T.
+
+- T maps $\mathbb{R}^{n}$ onto $\mathbb{R}^{m}$ if and only if the columns of A span $\mathbb{R}^{m}$
+- T is "one-to-one" if and only if the columns of A are linearly independent
