@@ -1,10 +1,10 @@
 # Lecture 4
 
-## Product of $A$ and $\overrightarrow{x}$
+## Product of *A* and **x**
 
 ### Definitions
 
-If $A$ is an $n \times m$ matrix, and $\overrightarrow{x}$ is in $\mathbb{R}^{n}$, then the product of $A$ and $\overrightarrow{x}$, denoted as $A\overrightarrow{x}$ is the **linear combinations of the columns of** $A$ **using the corresponding entries in** $\overrightarrow{x}$ **as weights.**
+If $A$ is an $n \times m$ matrix, and $\overrightarrow{x}$ is in $\mathbb{R}^{n}$, then the product of *A* and $\overrightarrow{x}$, denoted as $A \overrightarrow{x}$ is the **linear combinations of the columns of** $A$ **using the corresponding entries in** $\overrightarrow{x}$ **as weights.**
 
 $$
 	A\overrightarrow{x} = [a_{1} \, \, a_{2} \, ... \, a_{n}] 
@@ -113,7 +113,7 @@ The system is consistent if $b_{3} + 2b_{2} + b_{1} = 0$, which is a plane in $\
 > 3) The columns of $A$ span $\mathbb{R}^{m}$
 > 4) $A$ has a pivot position in every row
 
-## Computation of $A\overrightarrow{x}$
+## Computation of *A* **x**
 
 **Row-vector rule for computing** $A\overrightarrow{x}$: If the product $A\overrightarrow{x}$ is defined, then the $i$th entry in $A\overrightarrow{x}$ is the sum of the products of corresponding entries from row $i$ of $A$ and from the vector $\overrightarrow{x}$
 
@@ -121,8 +121,7 @@ This is essentially the dot product between the rows of $A$ and the columns of $
 
 A matrix with $1$'s on the diagonal adn $0$'s elsewhere is called the **identity matrix** and is denoted by $I$. For any vector $\overrightarrow{x}$, $I\overrightarrow{x} = I$
 
-## Properties of the Matrix-Vector Product $A\overrightarrow{x}$
-
+## Properties of the Matrix-Vector Product *A* **x**
 ### Thereom
 
 > If $A$ is an $m \times n$, $\overrightarrow{u}$ and $\overrightarrow{v}$ are vectors in $\mathbb{R}^{n}$, and $c$ is a scalar, then:

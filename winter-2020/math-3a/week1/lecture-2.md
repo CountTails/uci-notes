@@ -75,7 +75,8 @@ $$
 		1 & 3 & 5 & 7 \\
 		3 & 5 & 7 & 9 \\
 		5 & 7 & 9 & 1		
-	\end{bmatrix} \ \underrightarrow{R_{2} - 3R_{3}} 
+	\end{bmatrix}
+	\underrightarrow{R_{2} - 3R_{3}} 
 	\begin{bmatrix}
 		1 & 3 & 5 & 7 \\
 		0 & -4 & -8 & - 12 \\
@@ -94,12 +95,14 @@ $$
 
 $$
 \underrightarrow{\dfrac{-1}{4}R_{2}}
-\begin{bmatrix}
-	1 & 3 & 5 & 7 \\
-	0 & 1 & 2 & 3 \\
-	0 & -8 & -16 & -34 
-\end{bmatrix}
+	\begin{bmatrix}
+		1 & 3 & 5 & 7 \\
+		0 & 1 & 2 & 3 \\
+		0 & -8 & -16 & -34 
+	\end{bmatrix}
+$$
 
+$$
 \underrightarrow{R_{3} + 8R_{2}}
 \begin{bmatrix}
 	1 & 3 & 5 & 7 \\

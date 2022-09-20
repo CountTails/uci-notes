@@ -31,16 +31,13 @@ $$
 		1 & 0 & -2 \\
 		-2 & 1 & 6 \\
 		3 & -2 & 10
-	\end{bmatrix} \,
-
+	\end{bmatrix} \,,
 	u = \begin{bmatrix}
 		-3 \\ 2 \\ -3
-	\end{bmatrix} \,
-
+	\end{bmatrix} \,,
 	b = \begin{bmatrix}
 		-4 \\ 12 \\ -20
-	\end{bmatrix} \,
-
+	\end{bmatrix} \,,
 	c = \begin{bmatrix}
 		-1 \\ 7 \\ -3
 	\end{bmatrix}
@@ -172,10 +169,10 @@ Let $u = \begin{bmatrix} u_{1} \\ u_{2} \end{bmatrix}$ and $v =\begin{bmatrix} v
 
 $$
 	T(cu + dv) = 
-	T(c\begin{bmatrix} 
+	T(c \begin{bmatrix} 
 		u_{1} \\ u_{2} 
 		\end{bmatrix} 
-	+ d\begin{bmatrix} 
+	+ d \begin{bmatrix} 
 	v_{1} \\ v_{2} 
 	\end{bmatrix}) = 
 	T(\begin{bmatrix}
@@ -196,10 +193,10 @@ $$
 		dv_{1} \\ dv_{2}
 	\end{bmatrix} 
 	=
-	c\begin{bmatrix}
+	c \begin{bmatrix}
 		u_{1} \\ u_{2}
 	\end{bmatrix}
-	+ d\begin{bmatrix}
+	+ d \begin{bmatrix}
 		v_{1} \\ v_{2}
 	\end{bmatrix}
 $$

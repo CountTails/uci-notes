@@ -131,8 +131,7 @@ If $v_{1}, v_{2}, ..., v_{p}$ are in $\mathbb{R}^{n}$, the set of all linear com
 
 If $b = c_{1}a_{1} + c_{1}a_{2} + ... + c_{p}a_{p}$ is true, the b is in the $span\{  a_{1}, a_{2}, ..., a_{p}\}$
 
-## The matrix equation $A\overrightarrow{x} = \overrightarrow{b}$
-
+## The matrix equation *A* **x** = **b**
 If $A$ is a $m \times n$ matrix and $x$ is in $\mathbb{R}^{n}$, then the product of A and x is a linear combination of the columns of A using corresponding entries in x as the weights
 
 $$
