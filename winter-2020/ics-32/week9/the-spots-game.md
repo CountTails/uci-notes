@@ -45,8 +45,8 @@ Fractional coordinates, which used floating-point numbers to specify coordinates
 - Know the fractional coordinates of the shapes you want to draw.
 - In each iteration of your game loop, determine the size of the surface you're drawing on. Then, use this information to convert the fractional coordinates to pixel coordinates.
 - So, for example, if we wanted to draw one ring bounded by the box (0.4, 0.3) - (0.6, 0.7) in fractional coordinates on a surface of width 600 and height 700, we would do this:
-	- Convert the top-left fractional coordinate to a pixel coordinate. (0.4, 0.3) ⇒ (0.4 * 600, 0.3 * 700) ⇒ (240, 210).
-	- Convert the bottom-right fractional coordinate to a pixel coordinate similarly. (0.6, 0.7) ⇒ (0.6 * 600, 0.7 * 700) ⇒ (360, 490)
+	- Convert the top-left fractional coordinate to a pixel coordinate. (0.4, 0.3) -> (0.4 * 600, 0.3 * 700) -> (240, 210).
+	- Convert the bottom-right fractional coordinate to a pixel coordinate similarly. (0.6, 0.7) -> (0.6 * 600, 0.7 * 700) -> (360, 490)
 
 PyGame's input arrives in our program in the form of events, which are generated behind the scenes whenever the user does things like press keys on the keyboard, click their mouse button, and so on.
 
