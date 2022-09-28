@@ -30,15 +30,23 @@ There are many tools that provide abstractions to the technology listed above
 
 ## A brief overview of computing history
 
-Mark Weiser, 1991, coined the term **Ubiquitous Computing**
+### The computer for the 21st century
 
-There are 3 waves of computing
+- Mark Weiser, 1991, coined the term **Ubiquitous Computing**
+
+- There are 3 waves of computing
 
 ### Mainframe computing
 
-Computers were typically large and expensive machines. Devised to help with calculations.
+This first wave has a many-to-one relationship. Many people one machine.
 
-Batch process
+#### Computers were
+
+- large (take up a whole room)
+- expensive (10s of thousands of dollars)
+- primarily used to perform calculation
+
+#### Writing code for the mainframe (batch process)
 
 - Write code on punch cards
 - Wait for your turn
@@ -46,9 +54,13 @@ Batch process
 - If something goes wrong, fix it yourself and wait for next turn
 - Efficient use of computing resources, but poor interactivity
 
-This first wave has a many-to-one relationship. Many people one machine.
+#### Memex
 
-Command line interfaces
+- speculative design for personal computers
+- can link information across devices and sources
+- pen-based annotations of primary sources
+
+#### Command line interfaces (CLI)
 
 - Orignially a terminal connected to a mainframe
 - Can change execution based on ouput
@@ -56,23 +68,46 @@ Command line interfaces
 
 ### Personal computing
 
-First introduced by Xerox. Included a screen, keyboard, and a mouse. Commercially unsuccessful because they were still expensive and there were too few applications to justify
+#### Comercial debut
 
-Software could now run in windows (portion of a screen). The use of icons for navigating windows, menus and filesystems becomes mainstream.
+- introduced by Xerox in 1973
+- had a mouse and a chording keyboard
+- comercially unsucessful
+- software could now runs in windows (portion of a screen)
+- desktop with icons
+	- navigate between files and programs
+- slow...
 
-The operating system wars begin. Microsoft's early windows versions were mostly command line while macontosh was primarily a graphical environment.
-
-The web browser allows resources on other machines to be presented in a graphical manner.
+#### The rise of personal computing
 
 This wave ahs a one-to-one relationship. Each person has their own computer.
 
+##### Operating systems
+
+- Apple's Macintosh released in 1984
+- Microsoft's Windows version 1.0 released in 1985
+- The Macintosh featured a graphical user interface, whereas initial versions of Windows used mostly CLls
+- GUI became mainstream in Windows version 3.0
+	- used games to teach mouse skills
+
+##### Web browsers
+
+- Mosaic web browser released in 1993
+- It was the first graphical web browser
+- Microsoft's Internet Explorer joined the party in 1995
+- Apple's Safari did not show up until 2003
+
 ### Ubiquitous computing
+
+This wave has a one-to-many relationship. Each person has multiple computing devices.
+
+#### Types of devices
 
 - Tabs: inch-scale devices, like a postit
 - Pads: foot-scale devices, like paper
 - Boards: yard-scale devices, like a whiteboard
 
-Devices would have shared ownership. Nobody would actually own them. They would be openly available for anyone to sit and do their work. This lines up fairly well with what we use today
+#### Modern counterparts
 
 - Tabs = phones and watches
 - Pads = tablets and laptops
@@ -80,12 +115,18 @@ Devices would have shared ownership. Nobody would actually own them. They would 
 
 There is still a strong sense of ownership. There may be indidual accounts, but still under the control of a single person and not publicly accessible.
 
-This wave has a one-to-many relationship. Each person has multiple computing devices.
-
 ## Why web tools?
 
-Use HTTP request to send and receive data. Data can be synced over the cloud and shared by any device.
+### One-to-many, synced over the cloud
 
-Every platforms needs to be able to communicate. This is done with a web browser, which most platforms have.
+- Use HTTP request to send and receive data. 
+	- achieved with javascript early on
+- Render data with HTML
+- Style it with CSS
 
-A shared programming language and development environment enables efficient works. A write once, run anywhere idea
+### Web tools as the standard
+
+- every platforms needs to be able to communicate
+- most web browsers are capable and available
+- shared programming language and development
+	- write one, run anywhere
