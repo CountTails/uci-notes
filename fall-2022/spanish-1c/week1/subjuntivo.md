@@ -16,13 +16,15 @@
 - pensar
 - creer
 
+They do express disbelief and uncertainty in the negative
+
 ## Subjuntivo con verbos regulares
 
 | subject | -ar | -er | -ir |
 | ---- | ---- | ---- | ---- |
 | yo | e | a | a |
 | tú | es | as | as |
-| él/ella/usted | e | a |   |
+| él/ella/usted | e | a | a  |
 | nosotros/as | emos | amos | amos |
 | vosotros/as | éis | áis | áis |
 | ellos/ellas/ustedes | en | an | an |
