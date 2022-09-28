@@ -5,13 +5,13 @@
 ### Express recommendation
 
 - Te recomiendo que ...
-- espero que
-- ojalá que
-- Están pidiendo que
-- quiero que
-- Es necesario
+- espero que ...
+- ojalá que ...
+- Están pidiendo que ...
+- quiero que ...
+- Es necesario ...
 
-## Do not express recommendation
+### Do **NOT** express recommendation
 
 - pensar
 - creer
@@ -20,12 +20,12 @@
 
 | subject | -ar | -er | -ir |
 | ---- | ---- | ---- | ---- |
-| yo | e | | |
-| tú | es | | |
-| él/ella/usted | e | | |
-| nosotros/as | emos | | |
-| vosotros/as | éis | | |
-| ellos/ellas/ustedes | en | | |
+| yo | e | a | a |
+| tú | es | as | as |
+| él/ella/usted | e | a |   |
+| nosotros/as | emos | amos | amos |
+| vosotros/as | éis | áis | áis |
+| ellos/ellas/ustedes | en | an | an |
 
 ## Subjuntivo con verbos irregulares
 
