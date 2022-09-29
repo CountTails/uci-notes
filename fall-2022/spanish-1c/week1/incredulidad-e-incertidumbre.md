@@ -12,6 +12,7 @@
 - Es imposible que
 - Espero que (to wish)
 - Deseo que (to wish)
+- Quiero que (to want)
 
 ## No uso subjuntivo
 
