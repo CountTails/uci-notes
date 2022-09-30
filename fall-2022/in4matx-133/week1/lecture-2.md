@@ -64,3 +64,73 @@ Stands for **H**yper**T**ext **M**arkup **L**anguage
 - Document body (shown by browser)
 
 Browsers are pretty accommodating about HTML errors. There are no compiler errors when something is wrong. However, validation can help ensure browser compatibility and usability
+
+## Why structure matters?
+
+### Web access is important
+
+- Access by everyone regardless of disability is an essential aspect
+- All sorts of people will use the webpage you create
+
+### Common impariments
+
+- vision 
+	- can't see the screen
+- motor impairments 
+	- might not be able to use a mouse
+- cognitive impairments
+	- autism
+	- dyslexia 
+	- language barriers
+
+### Supporting easy navigation with screen reader
+
+#### Add semantic meaning to tags
+
+- ARIA roles - the "old way"
+- Given a non-semantic tag, a `role` attributes to provide meaning
+
+```html
+<div role="main"></div>  
+<div role="navigation"></div>
+<div role=“form"></div>
+```
+
+- HTML5 tags - the "new way"
+- Dedicated sematic tags
+
+```html
+<header> </header>
+<nav> </nav> 
+<article> </article>
+<section> </section>
+<aside> </aside>
+<footer> </footer>
+```
+
+- `alt` attributes in images
+- `aria-label` attributes to describe non-visual elements (buttons)
+
+#### Alt text guidelines
+
+- Always include the `alt` attribute, even if empty
+- Describe the information, not the picture
+- "Active" images and images which contain information require descriptive alt text
+- Descriptive images should have empty `alt` text
+- Be succinct, avoid being redundant with text
+
+### Accessibility validators
+
+- [WAVE]( http://wave.webaim.org/)
+- [ACheker](https://achecker.ca/checker/index.php)
+- Both over-report problems, requires you to think through whether something is actually an accessibility issue
+- Can try on your own with a screen reader
+
+## Inclusive design is better for everyone
+
+- The HTML stands alone
+	- Developers can glance at a page's source and have a good idea of what it renders
+- Semantic HTML helps people identify the content they want
+	- Accessibility benefits
+	- Interfaces can selectively remove or de-emphasize contextually unimportant contents
+	- Search engines can index the important content rather than UI content
