@@ -241,3 +241,85 @@ p {
 ## Validation
 
 - [W3Validator](https://validator.w3.org)
+
+## Extra goodies
+
+### Specifying styles
+
+#### Inline styling
+
+- supported, but generally a bad practice
+- Goes against DRY principle (don't repeat yourself)
+
+#### Internal styling
+
+- just putting CSS into the `<head>` of your HTML
+
+#### External styling
+
+- Generally a best practice
+- Aligns with the idea of separating structure from style
+- External styles apply in order too
+
+### Positioning: shorthand
+
+- multiple values can be specified in one line
+- difficult to remember
+- being explicit improves readability at the expense of brevity
+
+```CSS
+p {
+	padding:10px 5px 5px 10px;
+	/*      Top R Bottom L*/
+}
+
+p {
+	padding: 10px 5px 10px;
+	/*       Top  R&L Bottom*/
+}
+
+p {
+	padding: 8px 12px;
+	/*       T&B R&L*/
+}
+```
+
+### Borders: shorthand
+
+- multiple values can be specified in one line
+- slightly easier to remember
+- maybe even more readable
+
+```CSS
+div {
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: red;
+}
+
+div {
+	border-bottom: 3px solid red;
+}
+```
+
+### Psuedo-classes
+
+- Define a special state of an element
+
+```CSS
+a:link { /* unvisited link */
+	color: #FF0000;
+}
+
+a:visited { /* visited link */
+	color: #00FF00;
+}
+
+a:hover { /* mouse over link */
+	color: #FF00FF; 
+}
+
+a:active { /* selected link */
+	color: #0000FF; 
+}
+```
