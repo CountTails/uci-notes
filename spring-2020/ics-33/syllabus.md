@@ -11,3 +11,16 @@ Summary: Intermediate-level language features and programming concepts for large
 Prerequisite: [I&C SCI 32](../../winter-2020/ics-32/syllabus.md)
 
 ## Notes for this class
+
+- week 1
+	- [Review reading files](./week1/review-reading-files.md)
+	- [Python review](./week1/python-review.md)
+- week 2
+- week 3
+- week 4
+- week 5
+- week 6
+- week 7
+- week 8
+- week 9
+- week 10
