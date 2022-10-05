@@ -519,16 +519,215 @@ Small integer objects are unique in Python. Two names assigned to the same small
 
 ### Comprehensions
 
+Comprehensions are compact ways to create complicated (but not too complicated) lists, tuples, sets, and dicts.
+
+The general form of a list comprehension is as follows, where f means any function using var (or expression using var: we can also write just var there because a name by itself is a very simple expression) and p means any predicate (or bool expression) using var.`[f(var,...) for var in iterable if p(var,...)]`
+
+For tuple or set comprehensions, we would use `()` and `{}` as the outermost
+grouping symbol instead of `[]`
+
+Comprehensions provides a simpler way to write loops that construct a list, tuple, set from scratch
+
+Comprehensions cannot add data to a data structure and then mutate that data.
+
+#### Dict comprehensions
+
+The structure differs slightly, requiring a key and value as follows: `{k(var,...) : v(var,...) for var in iterable if p(var,...)}`
+
+#### Tuple comprehensions
+
+When writing a tuple comprehension `(...)`, you actually get a generator instead of a tuple
+
 ### Nine important/useful functions
+
+#### `split` and `join` methods
+
+Both split and join are methods in the str class.
+
+The split method also takes one str argument as .... and the result it returns
+is a list of of str.
+
+The join method also takes one iterable argument (it must produce str values) 
+as ....; the result it returns is a str.
+
+#### `all` and `any` functions
+
+The `all` function takes one iterable argument (and returns a bool value): it
+returns True if ALL the bool values produced by the iterable are True.
+
+The `any` function takes one iterable argument (and returns a bool value): it
+returns True if ANY the bool values produced by the iterable are True.
+
+These pair well with comprehensions, since comprehensions product iterable objects
+
+#### `sum`, `min`, and `max` functions
+
+The sum function requires that the iterable produce numeric values that can be added. It returns the sum of all the values produced by the iterable; if the iterable argument produces no values, sum returns 0.
+
+The min/max functions require that the iterable produce values that can be
+compared with each other and return the minimum/maximum value produced by their iterable argument.
+
+For the min/max functions, a key can be provided that dictated how the elements in the iterable arguments will be compared.
+
+#### `zip` and `enumerate` functions
+
+The zip that takes an arbitrary number of iterable arguments and zips/interleaves them together. They can be unzipped in a for loop that utilizes unpacking.
+
+The enumerate function takes a single iterable and an optional starting number and returns an iterable with pairs of `enum, value`
 
 ### `**kwargs` of non-matched arguments
 
+This parameter (just a name, can be anything else) must occur as the last parameter. kargs stands for keyword arguments. Basically, if Python has any  keywords arguments that do not match keyword parameters, they are all put in a dictionary that is stored in the last parameter named kargs.
+
+1) Writing * and ** when specifying parameters makes those parameters names bind to a tuple/dict respectively.
+2) Using the parameter names by themselves in the function is equivalent to using the tuple/dict respectively.
+
+3) Using * and ** followed by the parameter name as ARGUMENTS IN FUNCTION CALLS expands all the values in the tuple/dict respectively to represent all the arguments.
+
 ### Data structures
+
+#### Sequence types
+
+These sequence operations (operators and functions) are defined
+
+- x in s
+- x not in s
+- s + t
+- s * n
+- s[i]
+- s[i:j]
+- s[i:j:k]
+- len(s) 
+- min(s)
+- max(s)
+- s.index(x[, i[, j]])
+- s.count(x)
+
+Mutable sequence allow the following operations
+
+- s[i] = x 
+- s[i:j] = t
+- del s[i]
+- s[i:j:k] = t
+- del s[i:j:k]
+- s.append(x)
+- s.clear()
+- s.copy()
+- s.extend(t)
+- s.insert(i, x)
+- s.pop()
+- s.pop(i)
+- s.remove(x)
+- s.reverse()
+
+#### Set Types
+
+set (mutable) an frozenset (immutable)
+
+- len(s)
+- x in s
+- x not in s
+- isdisjoint(other)
+- issubset(other)
+- set <= other 
+- set < other
+- issuperset(other)
+- set >= other
+- set > other
+- union(other, ...)
+- intersection(other, ...)
+- difference(other, ...)
+- symmetric_difference(other)
+- copy
+- also the operators
+	- | (for union)
+	- & (for intersection)
+	- (for difference) 
+	- ^ (for symmetric difference)
+
+The following operations are allowed on sets only
+
+- update(other, ...)
+- intersection_update(other, ...)
+- difference_update(other, ...)
+- symmetric_difference_update(other)
+- add(elem)
+- remove(elem)
+- discard(elem)
+- pop()
+- clear()
+- also the operators 
+	- |= (union update)
+	- &= (intersection update)
+	- -= (difference update)
+	- ^= (symmetric difference update)
+
+#### Mapping Types
+
+Mapping types allow the following operations
+
+- d[key] = value 
+- del d[key]
+- key in d
+- key not in d
+- iter(d) 
+- clear()
+- copy()
+- fromkeys(seq[, value])
+- get(key[, default])
+- items()
+- keys()
+- pop(key[, default])
+- popitem()
+- setdefault(key[, default])
+- update([other])
+- values()
 
 ### Exceptions
 
+We do two things with exceptions in Python: we raise them (with the raise statement) and we handle them (with the try/except statement).
+
+A function raises an exception if it cannot do the job it is being asked to
+do. Rather than fail silently, possibly producing a bogus answer that gets used
+to compute an even bigger bogus result, it is better that the computation
+announces that a problem occurred.
+
+```Python
+try:
+    try-block
+
+except EorSE:
+    except-block
+except EorSE:
+    except-block
+...
+except EorSE:
+    except-block
+
+else:
+    else-block
+
+finally:
+    finally-block
+```
+
+Python tries to execute the statements in a try-block sequentially...
+
+- if NONE raise an exception, it executes the statements in else-block (if else: is present) and then the statements in finally-block (if finally: is present)
+- if ANY raise an exception, no more statements in the try-block are executed; it executes the statements in except-block (if except: is present) for the first EorSE matching the raised exception (if any match), then the statements in finally-block (if finally: is present)
+- If no EorSE matches the raised exception, then after executing the finally-block (if finally: is present), Python propagates the exception.
+
 ### Name spaces for objects
+
+Every object has a special variable named `__dict__` that stores all its
+namespace bindings in a dictionary.
+
+Writing `x.a = 1` is similar to writing `x.__dict__['a'] = 1`; both associate a name with a value in the object.
 
 ### Trivial things
 
-### Questions
+An empty dict is created by {} and empty set by set() (we can't use {} for an
+empty set because Python would think it is a dict). Non-empty dicts can
+be distinguished from a non-empy set.
+
+A one value tuple must be written like (1,) with that "funny" comma (we can't write just (1) because that is just the value 1, not a tuple storing just 1).
