@@ -292,23 +292,228 @@ The statements above would raise ValueError exceptions, because there are differ
 
 ### Iterable
 
+When we specify that an argument of a function must be iterable, it might be one
+of the standard data structures in Python.
+
+Or it might be a class or generator, which are also iterable, but cannot be indexed `[...]` or have the `len()` function used on them.
+
+Any iterable object can be transformed into a list or tuple of its values. (it might be big though)
+
+### `list.sort` vs `sorted` function
+
+`sort` is a method defined on arguments that are LIST objects; it returns the value None, but it MUTATES its list argument with its values in some specified order
+
+`sorted` is a function defined on arguments that are ITERABLE objects; it returns a LIST of its argument's values, with its values in some specified order
+
+To tell Python how to do the sorting, use the `key` parameter. To reverse the order in which Python will sort, set the `reverse` parameter to `True`
+
+There is a standard way to compare any data structure if `key` is not used.
+
 ### The `print` function
+
+the `sep` and `end` parameters in print help control how the printed
+values are separated and what is printed after the last one.
+
+The print function returns the value None: this function serves as a statement: it has an "effect" but returns no useful "value"; but all functions must return a value, so this one returns None.
+
+For formatting string, just use f-strings, they are amazing
 
 ### String/list/tuple slicing
 
+We can specify a slice by `SLT[i:j]` which includes `SLT[i]` followed
+by `SLT[i+1]`, ... `SLT[j-1]`.
+
+Slicing creates a copy of the subcontainer being sliced. If the slice contain no values it is empty. If the first index come before index 0, then index 0 is used; if the second index comes after the biggest index, then index `len(SLT)` is used.
+
+When the stride is omitted, it is +1. If the stride is negative, if the first index is omitted it is `len(SLT)`; if the last index is omitted it is -1.
+
 ### Conditional statement vs conditional expression
+
+A conditional statement uses a boolean expression to decide which indented
+block of statements to execute; 
+
+A conditional expression uses a boolean expression to decide which one of exactly two other expressions to evaluate.
+
+The form of a conditional expression is: `resultT if test else resultF`
+
+Not all conditional statements can be converted into conditional expressions; typically only simple ones can
 
 ### The `else` options for `for`/`while` loops
 
+```Python
+for index(es) in iterable:
+    block-body
+[else:
+    block-else]
+
+while <bool-expression>:
+    block-body
+[else:
+    block-else]
+```
+
+If the else: block-else option appears, and the loop terminated normally, (not with a break statement) then execute the block-else statements
+
 ### Argument/parameter matching
+
+Remember that arguments appear in function CALLS and parameters appear in function HEADERS (the first line in a function definition).
+
+#### Arguments
+
+| type | definition |
+| --- | --- |
+| positional argument | an argument NOT preceded by the name= option |
+| named argument | an argument preceded by the name= option |
+
+#### Parameters
+
+| type | definition |
+| --- | --- |
+| name-only parameter | a parameter not followed by =default argument value |
+| default-argument parameter | a parameter followed by =default argument value |
+
+#### Matching rules
+
+1) Match positional argument values in the call sequentially to the parameters named in the header's corresponding positions. Stop when reaching any named argument in the call, or the *parameter (if any) in the header.
+2) If matching a \*parameter in the header, match all remaining positional argument values to it.
+3) Match named-argument values in the call to their like-named parameters in the header
+4) Match any remaining default-argument parameters in the header with their specified default values
+5) Exceptions
+	- `SyntaxError`
+		- an argument cannot match a parameter
+	- `TypeError`
+		- a parameter is matched multiple times by arguments
+		- any parameter has not been matched
+		- a named-argument does not match the name of a parameter
+6) A / may appear once in a parameter list by itself, preceded by any number of parameter names. Any arguments preceding the / are positional only
+7) A \* may appear once in a parameter list by itself, followed by any number of parameter names. Any arguments following \* are named only
 
 ### Constructors operates on iterables
 
+it is very easy to construct lists, tuples, and sets from anything that is iterable by using the
+list, tuple, and set constructors.
+
+```Python 
+l = list ('radar') # then l is ['r', 'a', 'd', 'a', 'r']
+t = tuple('radar') # then t is ('r', 'a', 'd', 'a', 'r')
+s = set  ('radar') # then s is {'a', 'r', 'd'} or {'d', 'r', 'a'} or ...
+```
+
+Conversion between `list`, `set`, and `tuple` is also easy becuase these data structures are iterable
+
+Dictionaries have three ways to iterable, so you can extract a dict's contents in three different ways
+
+```Python
+list(d.keys  ()) # is like ['c', 'b', 'a', 'e', 'd']
+list(d.values()) # is like [3, 2, 1, 5, 4]
+list(d.items ()) # is like [('c', 3), ('b', 2), ('a', 1), ('e', 5), ('d', 4)]
+```
+
+To construct a dict, the iterable often requires a specific structure. Usually, it will involve an iterable where each element is also an iterable object of length 2
+
+```Python
+d = dict( [['a', 1], ['b', 2], ['c', 3], ['d', 4], ['e', 5]] ) #list of  2-list
+d = dict( [('a', 1), ('b', 2), ('c', 3), ('d', 4), ('e', 5)] ) #list of  2-tuple
+d = dict( (['a', 1], ['b', 2], ['c', 3], ['d', 4], ['e', 5]) ) #tuple of 2-list
+d = dict( (('a', 1), ('b', 2), ('c', 3), ('d', 4), ('e', 5)) ) #tuple of 2-tuple
+```
+
 ### Sharing vs. copying
+
+It is important to understand the fundamental difference between two names sharing an object (bound to the same object) and two names referring/bound to "copies of the same object".
+
+Note that if we mutate a shared object, both names "see" the change: both are bound to the same object which has mutated. But if they refer to different copies of an object, only one name "sees" the change.
+
+Checking `a is b` is equivalent to checking `id(a) == id(b)`
+
+#### Shallow copies
+
+Shallow copies mean the top level object that was being referenced was copied, but the references in that object are shared.
+
+```Python
+x = [1, [2]]
+y = list(x) # or y = copy(x) or y = x[:]
+```
+
+In memory, `x` and `y` would look like
+
+```
+                list              list
+            (-----------)      (-------)        
+  x         |   0   1   |      |   0   |        int
++---+	    | +---+---+ |      | +---+ |       (---)
+| --+------>| | | | --+-+----->| | --+-+-----> | 2 |
++---+	    | +-+-+---+ |      | +---+ |       (---)
+		    (---+-------)      (-------)
+                |                  ^
+				v    	           |
+		       int		           |
+		      (---)		           |
+		      | 1 |<--------+	   |
+		      (---)	        |	   |
+	      		            |	   |
+                list	    |	   |
+            (-----------)   |	   |
+  y         |   0   1   |   |	   |
++---+	    | +---+---+ |   |	   |
+| --+------>| | | | --+-+---+------+
++---+	    | +-+-+---+ |   |
+		    (---+-------)   |
+                |           |
+                +-----------+
+```
+
+#### Deep copies
+
+Deep copies  copy the top level object as well as every mutable reference that the object had. This is usually accomplished recursively.
+
+```Python
+from copy import deepcopy
+x = [1, [2]]
+y = deepcopy(x)
+```
+
+In memory, `x` and `y` would look like
+
+```
+                list              list
+            (-----------)      (-------)        
+  x         |   0   1   |      |   0   |       int
++---+	    | +---+---+ |      | +---+ |       (---)
+| --+------>| | | | --+-+----->| | --+-+-----> | 2 |
++---+	    | +-+-+---+ |      | +---+ |       (---)
+		    (---+-------)      (-------)         ^
+                |                                |
+				v                                |
+		       int                               |
+		      (---)			                	 |
+		      | 1 |<--------+                    |
+		      (---)	        |                    |
+			      		    |                    |
+                list	    |      list          |
+            (-----------)   |   (-------)        |
+  y         |   0   1   |   |   |   0   |        |
++---+	    | +---+---+ |   |   | +---+ |        |
+| --+------>| | | | --+-+---+-->| | --+-+--------+
++---+	    | +-+-+---+ |   |   | +---+ |
+		    (---+-------)   |   (-------)
+                |           |   
+                +-----------+
+```
 
 ### Hashable vs. mutable
 
-### Questions
+Python uses the term Hashable, which has the same meaning as Immutable. So
+hashable and mutable are OPPOSITES.
+
+| Hashable/Immutable | Mutable/Unhashable |
+| ---- | ---- |
+| numbers | lists |
+| strings | sets |
+| tuples (if their contents are immutable) | dicts |
+| frozensets | user-defined classes (by default) |
+
+Small integer objects are unique in Python. Two names assigned to the same small integer will be considered identical. However, tow names assigned to the same large integer are considered different. This is done to save memory
 
 ## Part 3
 
