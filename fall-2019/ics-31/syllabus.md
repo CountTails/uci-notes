@@ -29,7 +29,7 @@ Prerequisites: None
 	- [Lecture 11](./week4/lecture-11.md)
 	- [Midterm 1 Review](./week4/midterm-1.md)
 - week 5
-	- [Lecture 12](./week5/lectuer-12.md)
+	- [Lecture 12](./week5/lecture-12.md)
 	- [Lecture 13](./week5/lecture-13.md)
 	- [Lecture 14](./week5/lecture-14.md)
 - week 6
