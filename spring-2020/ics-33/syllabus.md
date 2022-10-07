@@ -20,6 +20,9 @@ Prerequisite: [I&C SCI 32](../../winter-2020/ics-32/syllabus.md)
 	- [Regular Expression](regular-expressions.md)
 	- [The RE module](./week2/the-re-module.md)
 - week 3
+	- [Classes Review](./week3/classes-review.md)
+	- [Operator Overloading 1](./week3/operator-overloading-1.md)
+	- [Operator Overloading 2](./week3/operator-overloading-2.md)
 - week 4
 - week 5
 - week 6
