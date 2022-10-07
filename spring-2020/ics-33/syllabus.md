@@ -16,6 +16,9 @@ Prerequisite: [I&C SCI 32](../../winter-2020/ics-32/syllabus.md)
 	- [Review reading files](./week1/review-reading-files.md)
 	- [Python review](./week1/python-review.md)
 - week 2
+	- [EBNF](./week2/ebnf.md)
+	- [Regular Expression](regular-expressions.md)
+	- [The RE module](./week2/the-re-module.md)
 - week 3
 - week 4
 - week 5
