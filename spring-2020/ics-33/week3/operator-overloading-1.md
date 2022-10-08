@@ -348,6 +348,4 @@ def __iadd__(self,right):
 So for mutable objects, we might want to implement `__iadd__`to produce an
 equivalent result more efficiently. 
 
-If the object is immutable, or there is no faster way to compute it, we can omit defining __iadd__ and let Python compute the result using the `__add__` method.
-
-
+If the object is immutable, or there is no faster way to compute it, we can omit defining `__iadd__` and let Python compute the result using the `__add__` method.
