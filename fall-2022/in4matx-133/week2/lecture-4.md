@@ -122,3 +122,80 @@
 ```HTML
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 ```
+
+### Specifying a viewport
+
+- done in the page's head
+- sets the device width and scale level (for zooming)
+
+```HTML
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">  
+</head>
+```
+
+### Designating a container
+
+- All bootstrap content lives in a container
+- Just a class; anything can be a container
+
+```HTML
+<div class="container">
+
+ <!--Bootstrap content-->
+
+</div>
+
+<main class="container">
+
+ <!--Bootstrap content-->
+
+</main>
+```
+
+### Grid system
+
+- Grid system has 12 columns
+	- 12 has a lot of factors (1, 2, 3, 4, 6)
+- Content over 12 columns will wrap
+- 15px gutter for each
+- Classes for `row` and `col-[size]-[number]`
+- Size parameters is optional; will divide space proportionally
+- Rows are block elements; columns are inline elements
+- `.col` with no size defaults to the smallest (`xs`)
+- largest size listed will cover larger sizes
+- default to width 12 (full width) when size not specified
+
+### Media queries
+
+```CSS
+@include media-breakpoint-up(sm) {
+	.some-class { 
+		display: block;
+	} 
+}
+```
+
+### Hiding and showing
+
+There are some helpful classes for showing and hiding content across breakpoints
+
+- `.visible-[sz]-*`
+- `.hidden-[sz]-*`
+
+### Default styling
+
+- Bootstrap changes a lot of styles
+- Custom styles involve various suffixes
+
+### Components
+
+- Components are elements pre-arranged into common patterns
+- Makes making nav bars, drop downs, alerts, etc. nice and simple
+- Requires some JS
+
+## Downsides for grid frameworks
+
+- Can lead to similar looking webpages
+- Can involve loading a lot of files; which can lower performance
+- Can stifle creativity
