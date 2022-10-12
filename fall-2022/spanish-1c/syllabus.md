@@ -20,6 +20,7 @@ Prerequisite: [SPANISH 1AB](https://catalogue.uci.edu/search/?P=SPANISH%201AB 
 	- [repaso subjuntivo](./week2/repaso-subjuntivo.md)
 - week 3
 	- [el imperfecto de subjuntivo](./week3/el-imperfecto-de-subjuntivo.md)
+	- [el futuro](./week3/el-futuro.md)
 - week 4
 - week 5
 - week 6
