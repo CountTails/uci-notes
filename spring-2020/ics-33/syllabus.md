@@ -24,6 +24,9 @@ Prerequisite: [I&C SCI 32](../../winter-2020/ics-32/syllabus.md)
 	- [Operator Overloading 1](./week3/operator-overloading-1.md)
 	- [Operator Overloading 2](./week3/operator-overloading-2.md)
 - week 4
+	- [Iterator Protocol](./week4/iterator-protocol.md)
+	- [Iterators as Classes](./week4/iterators-via-classes.md)
+	- [Generator Functions](./week4/generators.md)
 - week 5
 - week 6
 - week 7
