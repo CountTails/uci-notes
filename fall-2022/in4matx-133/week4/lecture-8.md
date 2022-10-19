@@ -1,4 +1,4 @@
-# Lecture 8
+# Lecture 8: Software tools & visualization
 
 ## Sequential programs
 
