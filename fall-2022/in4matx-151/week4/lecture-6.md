@@ -146,18 +146,18 @@ Two common methods of WBS representation are **Tabular** and **Chart** form
 Level 1 ----------------------------> Website update
 
 Level 2 ----> Planning ----> Website development ----> Website design
-				|
-				|
-				+ --> Evaluate current system
-				|
-				|
-				+ --> Define requirements
+                |
+                |
+                + --> Evaluate current system
+                |
+                |
+                + --> Define requirements
 Level 3 ------->|
-				|
-				+ --> Define functionality
-				|
-				|
-				+ --> Define risks
+                |
+                + --> Define functionality
+                |
+                |
+                + --> Define risks
 ```
 
 ### Work package
