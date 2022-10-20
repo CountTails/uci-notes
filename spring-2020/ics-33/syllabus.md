@@ -28,6 +28,9 @@ Prerequisite: [I&C SCI 32](../../winter-2020/ics-32/syllabus.md)
 	- [Iterators as Classes](./week4/iterators-via-classes.md)
 	- [Generator Functions](./week4/generators.md)
 - week 5
+	- [Recursive Functions](./week5/recursive-functions.md)
+	- [Functional Programming](./week5/functional-programming.md)
+	- [Decorators for Calling Functions](./week5/decorators-for-calling-functions.md)
 - week 6
 - week 7
 - week 8
