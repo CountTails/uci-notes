@@ -32,6 +32,9 @@ Prerequisite: [I&C SCI 32](../../winter-2020/ics-32/syllabus.md)
 	- [Functional Programming](./week5/functional-programming.md)
 	- [Decorators for Calling Functions](./week5/decorators-for-calling-functions.md)
 - week 6
+	- [Instrospection](./week6/instrospection.md)
+	- [Linked Lists](./week6/linked-lists.md)
+	- [Binary (Search) Trees](./week6/binary-trees.md)
 - week 7
 - week 8
 - week 9
