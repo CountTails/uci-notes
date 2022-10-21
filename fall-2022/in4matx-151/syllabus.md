@@ -23,6 +23,7 @@ Prerequisite: [IN4MATX 43](https://catalogue.uci.edu/search/?P=IN4MATX%2043 "I
 	- [Lecture 5](./week3/lecture-5.md)
 - week 4
 	- [Lecture 6](./week4/lecture-6.md)
+	- [Lecture 7](./week4/lecture-7.md)
 - week 5
 - week 6
 - week 7
