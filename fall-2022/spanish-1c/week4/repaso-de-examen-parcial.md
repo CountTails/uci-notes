@@ -1,4 +1,4 @@
-# Repase de examen parcial
+# Repaso de examen parcial
 
 ## Verbs to know
 
