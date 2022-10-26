@@ -308,7 +308,7 @@ s -> s*e*
 
 ##### Past subjunctive
 
-s -> f*ue*
+**s** -> **f***ue*
 
 | subject | form |
 | ---- | ---- |
