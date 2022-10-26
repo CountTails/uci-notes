@@ -36,6 +36,9 @@ Prerequisite: [I&C SCI 32](../../winter-2020/ics-32/syllabus.md)
 	- [Linked Lists](./week6/linked-lists.md)
 	- [Binary (Search) Trees](./week6/binary-trees.md)
 - week 7
+	- [Inheritance 1](./week7/inheritance-1.md)
+	- [Inheritance 2](./week7/inheritance-2.md)
+	- [Inheritance 3](./week7/inheritance-3.md)
 - week 8
 - week 9
 - week 10
