@@ -4,7 +4,7 @@
 
 - Start with the third person plural preterit form
 - Endings are the same of ar, er, and ir verbs
-- Verbs with irregular stem in the preterit use the same stam in the past subjunctive
+- Verbs with irregular stem in the preterit use the same stem in the past subjunctive
 
 | subject | ending |
 | ---- | ---- |
