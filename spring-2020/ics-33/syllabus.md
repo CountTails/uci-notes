@@ -40,5 +40,8 @@ Prerequisite: [I&C SCI 32](../../winter-2020/ics-32/syllabus.md)
 	- [Inheritance 2](./week7/inheritance-2.md)
 	- [Inheritance 3](./week7/inheritance-3.md)
 - week 8
+	- [Analysis of Algorithms](./wekk8/analysis-of-algorithms.md)
+	- [Complexity of Python Operations](./week8/complexity-of-python-operations.md)
+	- [Empirical Analysis](./week8/empirical-analysis.md)
 - week 9
 - week 10
