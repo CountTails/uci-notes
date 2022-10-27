@@ -24,6 +24,7 @@ Prerequisite: [SPANISH 1AB](https://catalogue.uci.edu/search/?P=SPANISH%201AB 
 - week 4
 	- [repaso de examen parcial](./week4/repaso-de-examen-parcial.md)
 - week 5
+	- Midterm week (no notes to be taken)
 - week 6
 - week 7
 - week 8
