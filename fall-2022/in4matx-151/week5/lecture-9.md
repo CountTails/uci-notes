@@ -55,9 +55,9 @@ Quality control
 		|                   ^
 		|                   | Reject
 		V                   | 
-| Acceptance | ---->  Accept/Reject? \
-							| 
-							| Accept
+| Acceptance | ---->  Accept/Reject? 
+                            | 
+                            | Accept
                             V        No
                           Rework?  ----> | Complete |
                             |
