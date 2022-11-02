@@ -27,6 +27,7 @@ Prerequisite: [SPANISH 1AB](https://catalogue.uci.edu/search/?P=SPANISH%201AB 
 	- Midterm week (no notes to be taken)
 - week 6
     - [el condicional](./week6/el-condicional.md)
+    - [si clauses](./week6/si-clauses.md)
 - week 7
 - week 8
 - week 9
