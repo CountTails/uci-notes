@@ -28,6 +28,7 @@ Prerequisite: [SPANISH 1AB](https://catalogue.uci.edu/search/?P=SPANISH%201AB 
 - week 6
     - [el condicional](./week6/el-condicional.md)
     - [si clauses](./week6/si-clauses.md)
+    - [la llorena](./week6/la-llorena.md)
 - week 7
 - week 8
 - week 9
