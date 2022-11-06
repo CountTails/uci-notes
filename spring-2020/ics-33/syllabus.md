@@ -44,4 +44,7 @@ Prerequisite: [I&C SCI 32](../../winter-2020/ics-32/syllabus.md)
 	- [Complexity of Python Operations](./week8/complexity-of-python-operations.md)
 	- [Empirical Analysis](./week8/empirical-analysis.md)
 - week 9
+    - [Advanced Classes and Inheritance]
+    - [Testing Software]
+    - [Executing Code in the Python Virtual Machine]
 - week 10
