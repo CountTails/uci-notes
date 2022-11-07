@@ -48,3 +48,5 @@ Prerequisite: [I&C SCI 32](../../winter-2020/ics-32/syllabus.md)
     - [Testing Software](./week9/testing-software.md)
     - [Executing Code in the Python Virtual Machine](./week9/executing-code-on-the-pvm.md)
 - week 10
+    - [Static Typing](./week10/static-typing.md)
+    - [Infinity in Math and Computation](./week10/infinities-in-math-and-computation.md)
