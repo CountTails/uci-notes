@@ -13,6 +13,7 @@ Prerequisites: High school mathematics through trigonometry
 ## Notes for this class
 
 - week 1
+    - [Propositional Logic](./week1/propositional-logic.md)
 - week 2
 - week 3
 - week 4
