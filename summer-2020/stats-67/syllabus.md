@@ -1,0 +1,19 @@
+# Stats 67 Syllabus
+
+## Course description
+
+Name: Introduction to Probability and Statistics for Computer Science
+
+Units: 4 units
+
+Summary: Introduction to the basic concepts of probability and statistics with discussion of applications to computer science.
+
+Prerequisites:  [MATH 2B](https://catalogue.uci.edu/search/?P=MATH%202B "MATH 2B")
+
+## Notes for this class
+
+- week 1
+- week 2
+- week 3
+- week 4
+- week 5
