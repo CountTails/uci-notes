@@ -18,6 +18,9 @@ Prerequisites: High school mathematics through trigonometry
     - [Predicates and Qualifiers](./week1/predicates-and-qualifiers.md)
     - [Nested Qualifiers](./week1/nested-qualifiers.md)
 - week 2
+    - [Rules of Inference](./week2/rules-of-inference.md)
+    - [Introduction to proofs](./week2/intro-to-proofs.md)
+    - [Proof Methods and Strategies](./week2/proof-methods-and-strategies.md)
 - week 3
 - week 4
 - week 5
