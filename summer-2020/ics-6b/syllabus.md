@@ -15,6 +15,8 @@ Prerequisites: High school mathematics through trigonometry
 - week 1
     - [Propositional Logic](./week1/propositional-logic.md)
     - [Propositional Equivalences](./week1/propositional-equivalences.md)
+    - [Predicates and Qualifiers](./week1/predicates-and-qualifiers.md)
+    - [Nested Qualifiers](./week1/nested-qualifiers.md)
 - week 2
 - week 3
 - week 4
