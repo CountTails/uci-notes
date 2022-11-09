@@ -31,6 +31,7 @@ Prerequisite: [IN4MATX 43](https://catalogue.uci.edu/search/?P=IN4MATX%2043 "I
     - [Lecture 10](./week6/lecture-10.md)
     - Midterm
 - week 7
+    - [Lecture 11](./week7/lecture-11.md)
 - week 8
 - week 9
 - week 10
