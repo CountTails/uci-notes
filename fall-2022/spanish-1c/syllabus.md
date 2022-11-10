@@ -30,6 +30,7 @@ Prerequisite: [SPANISH 1AB](https://catalogue.uci.edu/search/?P=SPANISH%201AB 
     - [si clauses](./week6/si-clauses.md)
     - [la llorena](./week6/la-llorena.md)
 - week 7
+    - [repaso presento de indicativo y infinitivo](./week7/repaso-presento-de-indicativo-y-infinitivo.md)
 - week 8
 - week 9
 - week 10
