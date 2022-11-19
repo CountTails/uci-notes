@@ -20,10 +20,6 @@
     - Xcode for iOS, in Swift or Objective-C
 - As we thenk of them today, native pps started with the first iPhone
 - Released a development platform alongside the hardware
-- Strengths
-    - Consistent 
-- Weknesses
-    - Separate development environments
 
 #### iOS
 
@@ -53,30 +49,21 @@
 
 - Platform specific
 - Cannot use Android SDK on iOS and vice-versa
+- Usually require starting to code from scratch
 
 ### Hybrid
 
 - Use a common code base to deploy native-like apps on a wide range of platforms
 - Two primary approaches
     - WebView app
-    - Progressive web app
     - Compiled hybrid app
-- Strengths
-    - Common codebase
-    - Save time and effort
-    - Easily design for various form factors
-    - Access to some device capabilities
-- Weaknesses
-    - Performance issues
-    - Inconsistency with platform
-    - Limited access to device capabilities
 
 #### WebView
 
 - Run a webpage written in HTML/CSS/JS on the phone's internal browser
 - Load that browser in a lightweight native app
 - Ideally, expose some native APIs to the browser
-- Essentially app is just a website
+- Essentially app is just a website, allow same/similar code to be used
 - WebView app frameworks
     - WebView apps are just websites
     - What do frameworks provide?
@@ -87,9 +74,8 @@
 #### Compiled hybrid apps
 
 - Write code in one language and compile it to native code using a hybrid frameworks
-    - Xamarin
-    - Unity
-    - React native
+- Results in a native app for each platform
+- Less freedom to develop
 
 ### Progressive web apps
 
@@ -105,6 +91,69 @@
     - Be responsive to any screen size
     - Provide a custome offline page
     - Be installable
+
+## Choosing a mobile development methods
+
+### Considerations
+
+#### Business
+
+- Development cost/time
+- Development concerns
+- Available infrastructure
+
+#### Design
+
+- Consistency with platform
+- Device capabilities
+- Interaction models supported
+- Performance and usability
+
+#### Technical
+
+- Programming languages
+- Integration with device
+- Performance
+- Upkeep and maintenance
+- Flexibility
+- Campatibility
+
+### Strengths and weaknesses
+
+#### Hybrid apps
+
+- Stregths
+    - Can share codebase between web and mobile
+    - Can save time and effort
+    - Easily design for various form factors
+    - Access to some device capabilities
+- Weaknesses
+    - Performance issues
+    - Inconsistency with platform
+    - Limited access to device capabilities
+
+#### Native apps
+
+- Strengths
+    - Consistent experience with platform
+    - Leverages full device capabilities
+    - Uses native UI elements
+- Weaknesses
+    - Need to support separate development for each platform
+    - Cost of app development and maintenance
+    - Need to learn/manage multiple programming languages
+    - Need to manage multiple sets of tools
+
+#### Hybrid vs. Native
+
+| Hybrid | Native |
+| ------ | ------ |
+| Great when time/money is a concern | Great when performance is a concern |
+| Need to deploy to multiple platforms | Need to be consistent with a platform |
+| Great for lightweight/seasonal apps | Great if app require a lot of resources or device specific capabilities |
+
+#### Progressive web apps
+
 - Strengths
     - No new code or libraries
     - Good when device features are not concerned
