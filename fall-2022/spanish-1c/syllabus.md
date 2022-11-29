@@ -32,5 +32,8 @@ Prerequisite: [SPANISH 1AB](https://catalogue.uci.edu/search/?P=SPANISH%201AB 
 - week 7
     - [repaso presento de indicativo y infinitivo](./week7/repaso-presento-de-indicativo-y-infinitivo.md)
 - week 8
+    - Instructor on strike
 - week 9
+    - Instructor on strike
 - week 10
+    - Instructor on strike
