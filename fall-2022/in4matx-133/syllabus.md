@@ -39,3 +39,4 @@ Prerequisite: [I&C SCI 45J](https://catalogue.uci.edu/search/?P=I%26C%20SCI%2
 - week 9
     - [Lecture 17](./week9/lecture-17.md)
 - week 10
+    - [Lecture 18](./week10/lecture-18.md)
