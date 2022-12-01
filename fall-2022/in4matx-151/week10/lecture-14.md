@@ -102,10 +102,61 @@
 
 #### Wong on managing behaviors
 
-- Upper-level behaviors: Strong team player, caring, conscientious, initiator, positive
-- Lower-level behaviors: Non-contributor, resistant to change, unreliable, negative
-- More to know for the final
 - Project managers should aim to move lower-level behaviors into the upper-level
+
+##### Upper level behaviors
+
+- Idealist
+    - Creative
+    - Problem solver
+    - Caring/builds relationships
+    - Helps ensure people are connected
+    - Patient
+- Guardian
+    - Outstanding implementer
+    - Hard worker
+    - Conscientious, loyal to team
+    - Driven to get the job done (on time, on spec, within budget)
+- Rational
+    - Self starter, initiator
+    - Technical and analytical thinker
+    - Great planner, strategic-minded
+    - Sees the big picture
+    - Idea generator
+- Artisan
+    - Fast thinker, fast doer
+    - Wonderful risk taker
+    - Enthusiastic, high energy
+    - Performer
+    - Persuasive
+
+##### Lower level behaviors
+
+- Idealist
+    - Procrastinates
+    - Worried, emotional, upset
+    - Overly sensitive to criticism and threats
+    - Paralyzed, no output, withdraws
+    - Becomes a noncontributor
+    - Complainer, lets things erode
+- Guardian
+    - Resistant to change, subborn
+    - Controlling or bossy
+    - Focuses too much on process
+    - Becomes very rigid, picky, narrow
+    - Internalizes problems
+- Rational
+    - Dominates: calls all the shots, poor listener, talks at people constantly, challenges others
+    - Argumentative
+    - Defensive, arrogant, always right and never wrong
+    - Impatient; moves forward without consensus
+- Artisan
+    - Unreliable, unpredictable
+    - Hates excessive processes and structure
+    - Gets distracted and ignores others
+    - Immature and insensitive
+    - Judgemental
+    - Will not follow norms
 
 #### What to do when you encounter a difficult person
 
