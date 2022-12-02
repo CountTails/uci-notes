@@ -57,3 +57,23 @@
 - Multiple choice (~60-65% from midterm)
 - Fill in the blanks and true/false question will be turned into multiple choice
 - Reading from week 8 and 10
+
+### Extra credits topics (1pt)
+
+1) Favorite part of the class
+2) Case study analysis
+3) Communication challenges: prompt that you have to resolve throught communication plan
+4) Draw a Gantt chart
+5) Reflect on how you used one of the course topics to solve a group challenge
+
+### Wildcard extra credit from Baldwin
+
+- Not MC, but straighforward and harder than above (2pt)
+
+### Topics to emphasize
+
+1) Schedule management -  techniques and stuff
+2) Critical path
+3) Integration management
+4) Question structure ... tailored to real life scenarios
+5) Storming and reforming
