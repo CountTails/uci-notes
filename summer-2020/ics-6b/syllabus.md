@@ -21,6 +21,8 @@ Prerequisites: High school mathematics through trigonometry
     - [Rules of Inference](./week2/rules-of-inference.md)
     - [Introduction to proofs](./week2/intro-to-proofs.md)
     - [Proof Methods and Strategies](./week2/proof-methods-and-strategies.md)
+    - [Sets](./week2/sets.md)
+    - [Set Operations](./week2/set-operations.md)
 - week 3
 - week 4
 - week 5
