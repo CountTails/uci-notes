@@ -24,5 +24,8 @@ Prerequisites: High school mathematics through trigonometry
     - [Sets](./week2/sets.md)
     - [Set Operations](./week2/set-operations.md)
 - week 3
+    - [Functions](./week3/functions.md)
+    - [Relations and Their Properties](./week3/relations-and-properties.md)
+    - [Closure of relations](./week3/closure-of-relations.md)
 - week 4
 - week 5
