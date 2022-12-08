@@ -34,4 +34,7 @@ Prerequisites: High school mathematics through trigonometry
     - [Boolean Functions](./week4/boolean-functions.md)
     - [Representing Boolean Functions](./week4/representing-boolean-functions.md)
     - [Logic Gates](./week4/logic-gates.md)
+    - [Languages and Grammars](./week4/languages-and-grammars.md)
+    - [Finite State Machines](./week4/finite-state-machines.md)
 - week 5
+    - [Turing Machines](./week5/turing-machines.md)
