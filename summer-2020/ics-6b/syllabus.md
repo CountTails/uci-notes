@@ -28,6 +28,6 @@ Prerequisites: High school mathematics through trigonometry
     - [Relations and Their Properties](./week3/relations-and-properties.md)
     - [Closure of relations](./week3/closure-of-relations.md)
     - [Equivalence Relations](./week3/equivalence-relations.md)
-    - [Partial Orderings](./week3/partial-ordering.md)
+    - [Partial Orderings](./week3/partial-orderings.md)
 - week 4
 - week 5
