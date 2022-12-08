@@ -30,4 +30,8 @@ Prerequisites: High school mathematics through trigonometry
     - [Equivalence Relations](./week3/equivalence-relations.md)
     - [Partial Orderings](./week3/partial-orderings.md)
 - week 4
+    - [N-ary relations](./week4/nary-relations.md)
+    - [Boolean Functions](./week4/boolean-functions.md)
+    - [Representing Boolean Functions](./week4/representing-boolean-functions.md)
+    - [Logic Gates](./week4/logic-gates.md)
 - week 5
