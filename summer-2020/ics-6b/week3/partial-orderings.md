@@ -27,7 +27,7 @@
 - Some pairs may not be comparable
 - For instance
     - $(5, 7)$ is not in the divides relation
-    - $5 \cancel{\vert} 7$ and $7 \cancel{\vert} 5$, therefore there is no ordering
+    - $\neg(5 \vert 7)$ and $\neg(7 \vert 5)$, therefore there is no ordering
 - If $\forall_{(a, b) \in A}$ either $(a, b) \in R$ or $(b, a) \in R$ and $R$ is a partial ordering, then $R$ is a total ordering
     - $\ge$ on integers is a *total* ordering
     - $\vert$ on integers in a *partial* ordering

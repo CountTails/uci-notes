@@ -14,7 +14,7 @@
 
 >Thm: $a \ R \ b \iff [a]_{R} = [b]_{R} \iff [a]_{R} \cap [b]_{R} \ne \emptyset$ where $R$ is an equivalence relation
 
-> Corrollary: $a \ \cancel{R} \ b \iff [a]_{R} \cap [b]_{R} \ne \emptyset$ where $A = \bigcup \limits_{a \in A} [a]_{R}$
+> Corrollary: $\neg(a \ {R} \ b) \iff [a]_{R} \cap [b]_{R} \ne \emptyset$ where $A = \bigcup \limits_{a \in A} [a]_{R}$
 
 ## Examples of equivalence relations
 
