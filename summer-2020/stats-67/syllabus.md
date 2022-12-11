@@ -26,3 +26,4 @@ Prerequisites:  [MATH 2B](https://catalogue.uci.edu/search/?P=MATH%202B "MATH�
     - [Lecture 8](./week4/lecture-8.md)
     - [Lecture 9](./week4/lecture-9.md)
 - week 5
+    - [Lecture 10](./week5/lecture-10.md)
