@@ -13,6 +13,8 @@ Prerequisites: None
 ## Notes for this class
 
 - week 1
+    - [Course Introduction](./week1/course-intro.md)
+    - [Rules and Representation](./week1/rules-and-representation.md)
 - week 2
 - week 3
 - week 4
