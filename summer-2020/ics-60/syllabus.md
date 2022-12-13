@@ -22,6 +22,8 @@ Prerequisites: None
     - [Mechanics, Dynamics, and Aesthetics](./week3/mechanics-dynamics-aesthetics.md)
     - [Playing History](./week3/playing-history.md)
 - week 4
+    - [Gaming Histories](./week4/gaming-histories.md)
+    - [Playing History](./week4/playing-history.md)
 - week 5
 - week 6
 - week 7
