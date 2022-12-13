@@ -25,7 +25,11 @@ Prerequisites: None
     - [Gaming Histories](./week4/gaming-histories.md)
     - [Playing History](./week4/playing-history.md)
 - week 5
+    - [Narratives in Games](./week5/narratives-in-games.md)
+    - [Narrative Devices](./week5/narrative-devices.md)
 - week 6
+    - [Narrative Archives](./week6/narrative-archives.md)
+    - [Writing Stories in Games](./week6/writing-stories.md)
 - week 7
 - week 8
 - week 9
