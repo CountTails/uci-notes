@@ -37,4 +37,6 @@ Prerequisites: None
     - [Participatory Culture](./week8/participatory-culture.md)
     - [Designing WOW](./week8/designing-wow.md)
 - week 9
+    - [Collegiate Esports](./week9/collegiate-esports.md)
+    - [Games and Violence](./week9/games-and-violence.md)
 - week 10
