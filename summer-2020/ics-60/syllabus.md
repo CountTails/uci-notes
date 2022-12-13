@@ -31,6 +31,8 @@ Prerequisites: None
     - [Narrative Archives](./week6/narrative-archives.md)
     - [Writing Stories in Games](./week6/writing-stories.md)
 - week 7
+    - [Motivation, Addiction, and Third Places](./week7/motivation-addiction-third-places.md)
+    - [Cultural Models in Games](./week7/cultural-models-in-games.md)
 - week 8
 - week 9
 - week 10
