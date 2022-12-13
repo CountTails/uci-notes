@@ -34,5 +34,7 @@ Prerequisites: None
     - [Motivation, Addiction, and Third Places](./week7/motivation-addiction-third-places.md)
     - [Cultural Models in Games](./week7/cultural-models-in-games.md)
 - week 8
+    - [Participatory Culture](./week8/participatory-culture.md)
+    - [Designing WOW](./week8/designing-wow.md)
 - week 9
 - week 10
