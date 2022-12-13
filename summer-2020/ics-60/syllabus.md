@@ -19,6 +19,8 @@ Prerequisites: None
     - [Chess in Culture and History](./week2/chess-culture-history.md)
     - [Play as the Genesis of Culture](./week2/play-culture.md)
 - week 3
+    - [Mechanics, Dynamics, and Aesthetics](./week3/mechanics-dynamics-aesthetics.md)
+    - [Playing History](./week3/playing-history.md)
 - week 4
 - week 5
 - week 6
