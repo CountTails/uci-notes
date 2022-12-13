@@ -16,6 +16,8 @@ Prerequisites: None
     - [Course Introduction](./week1/course-intro.md)
     - [Rules and Representation](./week1/rules-and-representation.md)
 - week 2
+    - [Chess in Culture and History](./week2/chess-culture-history.md)
+    - [Play as the Genesis of Culture](./week2/play-culture.md)
 - week 3
 - week 4
 - week 5
