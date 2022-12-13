@@ -40,3 +40,4 @@ Prerequisites: None
     - [Collegiate Esports](./week9/collegiate-esports.md)
     - [Games and Violence](./week9/games-and-violence.md)
 - week 10
+    - [Esports Research](./week10/esports-research.md)
