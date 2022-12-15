@@ -30,6 +30,16 @@ This repository is a work-in-progress, notes will be added gradually (both past 
 - [I&C SCI 6B](./summer-2020/ics-6b/syllabus.md)
 - [STATS 67](./summer-2020/stats-67/syllabus.md)
 
+### 2020-2021
+
+#### Fall 2020
+
+- [I&C SCI 3](./fall-2020/ics-3/syllabus.md)
+- [I&C SCI 45C](./fall-2020/ics-45c/syllabus.md)
+- [I&C SCI 51](./fall-2020/ics-51/syllabus.md)
+- [I&C SCI 193](./fall-2020/ics-193/syllabus.md)
+- [IN4MATX 43](./fall-2020/in4matx-43/syllabus.md)
+
 ### 2022-2023
 
 #### Fall 2022
