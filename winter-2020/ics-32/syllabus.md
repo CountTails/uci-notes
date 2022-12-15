@@ -6,7 +6,7 @@ Name: Programming with software libraries
 
 Units: 4 units
 
-Summary: Construction of programs for problems and computing environments more varied than in [I&C SCI 31](https://catalogue.uci.edu/search/?P=I%26C%20SCI%2031 "I&C SCI 31"). Using library modules for applications such as graphics, sound, GUI, database, Web, and network programming. Language features beyond those in [I&C SCI 31](https://catalogue.uci.edu/search/?P=I%26C%20SCI%2031 "I&C SCI 31") are introduced as needed.
+Summary: Construction of programs for problems and computing environments more varied than in [I&C SCI 31](../../fall-2019/ics-31/syllabus.md). Using library modules for applications such as graphics, sound, GUI, database, Web, and network programming. Language features beyond those in [I&C SCI 31](../../fall-2019/ics-31/syllabus.md) are introduced as needed.
 
 Prerequisite: [I&C SCI 31](../../fall-2019/ics-31/syllabus.md)
 
