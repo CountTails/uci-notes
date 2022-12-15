@@ -2,13 +2,13 @@
 
 ## Course description
 
-Name:
+Name: tutoring in I&CS
 
-Units:
+Units: 2
 
-Summary:
+Summary: Principles and practice of providing technical assistance to novice learners in information and computer sciences.
 
-Prerequisite:
+Prerequisite: None
 
 ## Notes for this class
 

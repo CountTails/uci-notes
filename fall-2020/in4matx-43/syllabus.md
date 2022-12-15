@@ -2,13 +2,13 @@
 
 ## Course description
 
-Name:
+Name: introduction to software engineering
 
-Units:
+Units: 4
 
-Summary:
+Summary: Concepts, methods, and current practice of software engineering. Large-scale software production, software life cycle models, principles and techniques for each stage of development.
 
-Prerequisite:
+Prerequisite: [I&C SCI 32](../../winter-2020/ics-32/syllabus.md)
 
 ## Notes for this class
 

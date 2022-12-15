@@ -2,13 +2,13 @@
 
 ## Course description
 
-Name:
+Name: programming in C/C++ as a second language
 
-Units:
+Units: 4
 
-Summary:
+Summary: An introduction to the lexical, syntactic, semantic, and pragmatic characteristics of the C/C++ languages for experienced programmers. Emphasis on object-oriented programming, using standard libraries, and programming with manual garbage collection.
 
-Prerequisite:
+Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md)
 
 ## Notes for this class
 

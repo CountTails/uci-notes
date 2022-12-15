@@ -2,13 +2,13 @@
 
 ## Course description
 
-Name:
+Name: internet technologies and their social impate
 
-Units:
+Units: 4
 
-Summary:
+Summary: Examines current Internet technologies and social implications at the individual, group, and societal level. Blogs, wikis, sharing of video, photos, and music, e-commerce, social networking, gaming, and virtual environments. Issues include privacy, trust, identity, reputation, governance, copyright, and malicious behavior.
 
-Prerequisite:
+Prerequisite: None
 
 ## Notes for this class
 

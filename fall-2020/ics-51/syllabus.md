@@ -2,13 +2,13 @@
 
 ## Course description
 
-Name:
+Name: introductory computer organization
 
-Units:
+Units: 6
 
-Summary:
+Summary: Multilevel view, design, and operation of computer system components. Machine-level data and instruction representation. Instruction sets and addressing modes. Memory organization. Laboratory work using low-level programming languages.
 
-Prerequisite:
+Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md) and [I&C SCI 6B](../../summer-2020/ics-6b/syllabus.md)
 
 ## Notes for this class
 
