@@ -13,6 +13,7 @@ Prerequisite: None
 ## Notes for this class
 
 - Week 1
+    - [History of the Internet](./week1/history-of-the-internet.md)
 - Week 2
 - Week 3
 - Week 4
