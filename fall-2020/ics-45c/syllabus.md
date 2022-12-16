@@ -13,6 +13,8 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md)
 ## Notes for this class
 
 - Week 1
+    - [Course Introduction](./week1/course-intro.md)
+    - [C++ Basics](./week1/language-basics.md)
 - Week 2
 - Week 3
 - Week 4
