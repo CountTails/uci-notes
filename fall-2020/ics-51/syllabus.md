@@ -13,6 +13,8 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md) and [I&C SCI 6B
 ## Notes for this class
 
 - Week 1
+    - [Introduction to Assembly](./week1/intro-assembly.md)
+    - [Boolean Algebra Review](./week1/boolean-algrebra-review.md)
 - Week 2
 - Week 3
 - Week 4
