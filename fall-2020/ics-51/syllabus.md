@@ -16,6 +16,8 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md) and [I&C SCI 6B
     - [Introduction to Assembly](./week1/intro-assembly.md)
     - [Boolean Algebra Review](./week1/boolean-algrebra-review.md)
 - Week 2
+    - [MIPS Instructions](./week2/mips-instructions.md)
+    - [Digital Systems](./week2/digital-systems.md)
 - Week 3
 - Week 4
 - Week 5
