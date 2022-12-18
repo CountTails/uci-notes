@@ -16,6 +16,8 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md)
     - [Course Introduction](./week1/course-intro.md)
     - [C++ Basics](./week1/language-basics.md)
 - Week 2
+    - [Separate Compilation](./week2/separate-compilation.md)
+    - [Behind the Scenes of Computers](./week2/behind-the-scenes.md)
 - Week 3
 - Week 4
 - Week 5
