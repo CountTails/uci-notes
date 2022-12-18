@@ -16,6 +16,8 @@ Prerequisite: [I&C SCI 32](../../winter-2020/ics-32/syllabus.md)
     - [Lecture 1](./week1/lecture-1.md)
     - [Lecture 2](./week1/lecture-2.md)
 - Week 2
+    - [Lecture 3](./week2/lecture-3.md)
+    - [Lecture 4](./week2/lecture-4.md)
 - Week 3
 - Week 4
 - Week 5
