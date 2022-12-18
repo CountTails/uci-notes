@@ -15,6 +15,7 @@ Prerequisite: None
 - Week 1
     - [History of the Internet](./week1/history-of-the-internet.md)
 - Week 2
+    - [Internet Infrastructure](./week2/internet-infrastructure.md)
 - Week 3
 - Week 4
 - Week 5
