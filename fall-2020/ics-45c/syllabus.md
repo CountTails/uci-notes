@@ -19,6 +19,8 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md)
     - [Separate Compilation](./week2/separate-compilation.md)
     - [Behind the Scenes of Computers](./week2/behind-the-scenes.md)
 - Week 3
+    - [More on Functions](./week3/more-functions.md)
+    - [Static and Dynamic Allocation](./week3/allocation.md)
 - Week 4
 - Week 5
 - Week 6
