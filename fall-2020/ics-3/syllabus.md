@@ -17,6 +17,7 @@ Prerequisite: None
 - Week 2
     - [Internet Infrastructure](./week2/internet-infrastructure.md)
 - Week 3
+    - [Digital Divide](./week3/digital-divide.md)
 - Week 4
 - Week 5
 - Week 6
