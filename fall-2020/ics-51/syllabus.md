@@ -19,6 +19,7 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md) and [I&C SCI 6B
     - [MIPS Instructions](./week2/mips-instructions.md)
     - [Digital Systems](./week2/digital-systems.md)
 - Week 3
+    - [Number Representations](./week3/number-representations.md)
 - Week 4
 - Week 5
 - Week 6
