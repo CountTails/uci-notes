@@ -22,6 +22,10 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md)
     - [More on Functions](./week3/more-functions.md)
     - [Static and Dynamic Allocation](./week3/allocation.md)
 - Week 4
+    - [Homogenous Collections](./week4/homogenous-collections.md)
+    - [Heterogenous Structures](./week4/heterogenous-structures.md)
+    - [Const Correctness](./week4/const-correctness.md)
+    - [Illuminating the Dark Corners](./week4/dark-corners.md)
 - Week 5
 - Week 6
 - Week 7
