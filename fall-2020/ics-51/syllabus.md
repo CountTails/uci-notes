@@ -21,6 +21,8 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md) and [I&C SCI 6B
 - Week 3
     - [Number Representations](./week3/number-representations.md)
 - Week 4
+    - [Loops, Arrays, and Functions](./week4/loops-arrays-functions.md)
+    - [Digital Logic](./week4/digital-logic.md)
 - Week 5
 - Week 6
 - Week 7
