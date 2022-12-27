@@ -19,6 +19,7 @@ Prerequisite: None
 - Week 3
     - [Digital Divide](./week3/digital-divide.md)
 - Week 4
+    - [Politics and Law](./week4/politics-and-law.md)
 - Week 5
 - Week 6
 - Week 7
