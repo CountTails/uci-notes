@@ -21,6 +21,7 @@ Prerequisite: None
 - Week 4
     - [Politics and Law](./week4/politics-and-law.md)
 - Week 5
+    - [Social Media and Social Movements](./week5/social-media-and-movements.md)
 - Week 6
 - Week 7
 - Week 8
