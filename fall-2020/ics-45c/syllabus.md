@@ -27,6 +27,10 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md)
     - [Const Correctness](./week4/const-correctness.md)
     - [Illuminating the Dark Corners](./week4/dark-corners.md)
 - Week 5
+    - [C++ Classes](./week5/classes.md)
+    - [Functions and Lambdas](./week5/functions-and-lambdas.md)
+    - [Linked Data Structures](./week5/linked-data-structures.md)
+    - [Unit Testing](./week5/unit-testing.md)
 - Week 6
 - Week 7
 - Week 8
