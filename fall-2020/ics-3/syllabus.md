@@ -23,6 +23,7 @@ Prerequisite: None
 - Week 5
     - [Social Media and Social Movements](./week5/social-media-and-movements.md)
 - Week 6
+    - [Internet and Labor](./week6/internet-and-labor.md)
 - Week 7
 - Week 8
 - Week 9
