@@ -32,6 +32,7 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md)
     - [Linked Data Structures](./week5/linked-data-structures.md)
     - [Unit Testing](./week5/unit-testing.md)
 - Week 6
+    - [Well Behaved Classes](./week6/well-behaved-classes.md)
 - Week 7
 - Week 8
 - Week 9
