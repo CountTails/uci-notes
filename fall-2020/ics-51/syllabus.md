@@ -24,6 +24,8 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md) and [I&C SCI 6B
     - [Loops, Arrays, and Functions](./week4/loops-arrays-functions.md)
     - [Digital Logic](./week4/digital-logic.md)
 - Week 5
+    - [Karnaugh Maps](week5/kmaps.md)
+    - [Building Digital Components](./week5/building-components.md)
 - Week 6
 - Week 7
 - Week 8
