@@ -27,6 +27,8 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md) and [I&C SCI 6B
     - [Karnaugh Maps](week5/kmaps.md)
     - [Building Digital Components](./week5/building-components.md)
 - Week 6
+    - [More on Functions](./week6/more-on-functions.md)
+    - [Recursion in MIPS](./week6/recursion-in-mips.md)
 - Week 7
 - Week 8
 - Week 9
