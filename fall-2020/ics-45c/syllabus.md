@@ -34,6 +34,8 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md)
 - Week 6
     - [Well Behaved Classes](./week6/well-behaved-classes.md)
 - Week 7
+    - [Standard Library](./week7/standard-library.md)
+    - [Inheritance](./week7/inheritance.md)
 - Week 8
 - Week 9
 - Week 10
