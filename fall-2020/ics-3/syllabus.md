@@ -25,6 +25,7 @@ Prerequisite: None
 - Week 6
     - [Internet and Labor](./week6/internet-and-labor.md)
 - Week 7
+    - [Data](./week7/data.md)
 - Week 8
 - Week 9
 - Week 10
