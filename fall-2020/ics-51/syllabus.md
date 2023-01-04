@@ -30,6 +30,8 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md) and [I&C SCI 6B
     - [More on Functions](./week6/more-on-functions.md)
     - [Recursion in MIPS](./week6/recursion-in-mips.md)
 - Week 7
+    - [Multiplexors](./week7/multiplexors.md)
+    - [Arithmetic Logic Units](./week7/alus.md)
 - Week 8
 - Week 9
 - Week 10
