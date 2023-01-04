@@ -27,5 +27,6 @@ Prerequisite: None
 - Week 7
     - [Data](./week7/data.md)
 - Week 8
+    - No Lecture
 - Week 9
 - Week 10
