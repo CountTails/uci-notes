@@ -37,5 +37,9 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md)
     - [Standard Library](./week7/standard-library.md)
     - [Inheritance](./week7/inheritance.md)
 - Week 8
+    - [Abstract Base Classes](./week8/abstract-base-classes.md)
+    - [Type Conversions](./week8/type-conversions.md)
+    - [Static Members](./week8/static-members.md)
+    - [Contracts and Exceptions](./week8/contracts-and-exceptions.md)
 - Week 9
 - Week 10
