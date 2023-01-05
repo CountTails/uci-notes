@@ -33,5 +33,7 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md) and [I&C SCI 6B
     - [Multiplexors](./week7/multiplexors.md)
     - [Arithmetic Logic Units](./week7/alus.md)
 - Week 8
+    - [Single Cycle Datapath (Part 1)](./week8/single-cycle-datapath-part-1.md)
+    - [Single Cycle Datapath (Part 2)](./week8/single-cycle-datapath-part-2.md)
 - Week 9
 - Week 10
