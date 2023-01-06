@@ -36,4 +36,6 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md) and [I&C SCI 6B
     - [Single Cycle Datapath (Part 1)](./week8/single-cycle-datapath-part-1.md)
     - [Single Cycle Datapath (Part 2)](./week8/single-cycle-datapath-part-2.md)
 - Week 9
+    - [Single Cycle Datapath (Part 3)](./week9/single-cycle-datapath-part-3.md)
+    - [2D Arrays](./week9/2d-arrays.md)
 - Week 10
