@@ -29,4 +29,5 @@ Prerequisite: None
 - Week 8
     - No Lecture
 - Week 9
+    - [Games and the Internet](./week9/games-and-the-internet.md)
 - Week 10
