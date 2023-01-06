@@ -38,3 +38,4 @@ Prerequisite: [I&C SCI 32](../../winter-2020/ics-32/syllabus.md)
     - [Lecture 15](./week9/lecture-15.md)
     - [Lecture 16](./week9/lecture-16.md)
 - Week 10
+    - [Lecture 17](./week10/lecture-17.md)
