@@ -42,4 +42,7 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md)
     - [Static Members](./week8/static-members.md)
     - [Contracts and Exceptions](./week8/contracts-and-exceptions.md)
 - Week 9
+    - [RAII](./week9/raii.md)
+    - [Templates](./week9/templates.md)
 - Week 10
+    - No lecture, focus on final project
