@@ -47,3 +47,9 @@ This repository is a work-in-progress, notes will be added gradually (both past 
 - [IN4MATX 133](./fall-2022/in4matx-133/syllabus.md)
 - [IN4MATX 151](./fall-2022/in4matx-151/syllabus.md)
 - [Spanish 1C](./fall-2022/spanish-1c/syllabus.md)
+
+#### Winter 2023
+
+- [IN4MATX 122](./winter-2023/in4matx-122/syllabus.md)
+- [IN4MATX 148](./winter-2023/in4matx-148/syllabus.md)
+- [IN4MATX 191A](./winter-2023/in4matx-191a/syllabus.md)
