@@ -40,6 +40,12 @@ This repository is a work-in-progress, notes will be added gradually (both past 
 - [I&C SCI 193](./fall-2020/ics-193/syllabus.md)
 - [IN4MATX 43](./fall-2020/in4matx-43/syllabus.md)
 
+#### Winter 2021
+
+- [I&C SCI 6D](./winter-2021/ics-6d/syllabus.md)
+- [I&C SCI 45J](./winter-2021/ics-45j/syllabus.md)
+- [I&C SCI 46](./winter-2021/ics-46/syllabus.md)
+
 ### 2022-2023
 
 #### Fall 2022
