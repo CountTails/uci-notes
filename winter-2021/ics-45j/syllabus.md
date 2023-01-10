@@ -13,6 +13,8 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md)
 ## Notes for this class
 
 - Week 1
+    - [Course Introduction](./week1/course-intro.md)
+    - [Implementing Classes](./week1/implementing-classes.md)
 - Week 2
 - Week 3
 - Week 4
