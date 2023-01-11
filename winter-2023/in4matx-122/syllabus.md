@@ -13,6 +13,7 @@ Prerequisites: ([I&C SCI 45J](https://catalogue.uci.edu/search/?P=I%26C%20SCI%
 ## Notes for this class
 
 - Week 1
+    - [Lecture 1](./week1/lecture-1.md)
 - Week 2
 - Week 3
 - Week 4
