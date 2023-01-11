@@ -13,6 +13,9 @@ Prerequisites: [I&C SCI 45C](../../fall-2020/ics-45c/syllabus.md)
 ## Notes for this class
 
 - Week 1
+    - [Course Introduction](./week1/course-intro.md)
+    - [Contracts and Exceptions](./week1/exceptions.md)
+    - [Function and Class Templates](./week1/templates.md)
 - Week 2
 - Week 3
 - Week 4
