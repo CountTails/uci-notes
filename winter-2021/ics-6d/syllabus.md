@@ -16,6 +16,8 @@ Prerequisite: Recommended: [I&C SCI 6B](../../summer-2020/ics-6b/syllabus.md)
     - [Sequences](./week1/sequences.md)
     - [Summations](./week1/summations.md)
 - Week 2
+    - [Mathematical Induction](./week2/math-induction.md)
+    - [Strong Induction](./week2/strong-induction.md)
 - Week 3
 - Week 4
 - Week 5
