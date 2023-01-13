@@ -10,7 +10,7 @@
 
 ## OK....
 
-- Camp Izza (registration system / content  management)
+- Camp Izza (registration system / content management)
 - UCI EEE evaluations
 - Helpen app
 - Memory air
