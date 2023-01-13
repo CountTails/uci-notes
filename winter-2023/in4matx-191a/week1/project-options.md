@@ -2,20 +2,20 @@
 
 ## Interesting
 
-1) Token ATM (canvas plugin)
-2) Spelling dystance (education tool)
-3) Camp Izza (registration system / constant management)
-4) Idea bank
-5) UCI EEE evaluations
+1) Odyssey app
+2) Idea bank
+3) VICO infrastructure
+4) Token ATM (canvas plugin)
+5) Spelling dystance (education tool)
 
 ## OK....
 
-- VICO infrastructure
-- Odyssey app
+- Camp Izza (registration system / content  management)
+- UCI EEE evaluations
 - Helpen app
 - Memory air
 - GetMentored.com
-- YourAdvisor
+- YourAdvisor (Areum kim)
 - ChoDi
 
 ## Not so interesting
