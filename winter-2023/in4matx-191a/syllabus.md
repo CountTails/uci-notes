@@ -17,6 +17,7 @@ Prerequisites: [IN4MATX 113](https://catalogue.uci.edu/search/?P=IN4MATX%20113
     - [Successful Collaboration](./week1/successful-collaboration.md)
 - Week 2
     - [SE Review](./week2/se-review.md)
+    - [UX and Agile Requirements](./week2/ux-and-agile-requirements.md)
 - Week 3
 - Week 4
 - Week 5
