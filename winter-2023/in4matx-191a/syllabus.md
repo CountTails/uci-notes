@@ -20,6 +20,7 @@ Prerequisites: [IN4MATX 113](https://catalogue.uci.edu/search/?P=IN4MATX%20113
     - [UX and Agile Requirements](./week2/ux-and-agile-requirements.md)
 - Week 3
     - [Backlogs](./week3/backlogs.md)
+    - Sprint 1 reports
 - Week 4
 - Week 5
 - Week 6
