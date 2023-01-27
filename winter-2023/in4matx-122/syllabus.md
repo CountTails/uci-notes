@@ -20,6 +20,7 @@ Prerequisites: ([I&C SCI 45J](https://catalogue.uci.edu/search/?P=I%26C%20SCI%
     - [Lecture 4](./week2/lecture-4.md)
 - Week 3
     - [Lecture 5](./week3/lecture-5.md)
+    - [Lecture 6](./week3/lecture-6.md)
 - Week 4
 - Week 5
 - Week 6
