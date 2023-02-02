@@ -42,3 +42,17 @@
 
 - Analog-to-digital converter
 - Allows for analog data to be interpreted as a digital signal
+
+## RBG precision control
+
+### Magenta
+
+![RGB Magenta Screenshot](./figures/rgb-magenta-screenshot.jpg)
+
+![RGB IoT Magenta LED](./figures/rgb-magenta-led.jpg)
+
+### Yellow
+
+![RGB Yellow Screenshot](./figures/rgb-yellow-screenshot.jpg)
+
+![RGB Yellow LED](./figures/rgb-yellow-led.jpg)
