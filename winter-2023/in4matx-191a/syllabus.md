@@ -23,6 +23,7 @@ Prerequisites: [IN4MATX 113](https://catalogue.uci.edu/search/?P=IN4MATX%20113
     - Sprint 1 reports
 - Week 4
     - [Documentation](./week4/documentation.md)
+    - Sprint 1 reflections
 - Week 5
 - Week 6
 - Week 7
