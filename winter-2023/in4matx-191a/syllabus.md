@@ -25,6 +25,7 @@ Prerequisites: [IN4MATX 113](https://catalogue.uci.edu/search/?P=IN4MATX%20113
     - [Documentation](./week4/documentation.md)
     - Sprint 1 reflections
 - Week 5
+    [Agile estimations](./week5/agile-estimation.md)
 - Week 6
 - Week 7
 - Week 8
