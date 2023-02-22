@@ -31,6 +31,7 @@ Prerequisites:  [I&C SCI 31](../../fall-2019/ics-31/syllabus.md)
     - [Lecture 10](./week6/lecture-10.md)
     - [Lecture 11](./week6/lecture-11.md)
 - Week 7
+    - [Lecture 12](./week7/lecture-12.md)
 - Week 8
 - Week 9
 - Week 10
