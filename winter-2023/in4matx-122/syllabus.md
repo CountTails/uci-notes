@@ -31,6 +31,14 @@ Prerequisites: ([I&C SCI 45J](https://catalogue.uci.edu/search/?P=I%26C%20SCI%
     - Group Work
     - Group Work
 - Week 7
+    - Group Work
+    - Group Work
 - Week 8
+    - Group Work 
+    - Group Work
 - Week 9
+    - Group Work
+    - Group Work
 - Week 10
+    - Group presentations
+    - Group presentations
