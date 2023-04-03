@@ -31,6 +31,14 @@ Prerequisites: [IN4MATX 113](https://catalogue.uci.edu/search/?P=IN4MATX%20113
     - Attendance not required
     - Sprint 2 reports
 - Week 7
+    - Project check in
+    - Attendance not required
 - Week 8
+    - Attendance not required
+    - Project check in
 - Week 9
+    - Project check in
+    - Group presentations
 - Week 10
+    - Project check in
+    - Attendance not required
