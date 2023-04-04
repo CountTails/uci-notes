@@ -13,6 +13,7 @@ Prerequisite: [In4matx 101](../../winter-2022/in4matx-101/syllabus.md)
 ## Notes for this class
 
 - Week 1
+    - [Intro Lecture](./week1/course-intro.md)
 - Week 2
 - Week 3
 - Week 4
