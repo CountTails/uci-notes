@@ -16,7 +16,11 @@ Prerequisites: [IN4MATX 113](https://catalogue.uci.edu/search/?P=IN4MATX%20113
     - [Agile Refresh](./week1/agile-refresh.md)
     - [Design Ethics](./week1/design-ethics.md)
 - Week 2
+	- Team check in
+	- Attendance not required
 - Week 3
+	- Presentations
+	- Team check in
 - Week 4
 - Week 5
 - Week 6
