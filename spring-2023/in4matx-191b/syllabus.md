@@ -25,6 +25,7 @@ Prerequisites: [IN4MATX 113](https://catalogue.uci.edu/search/?P=IN4MATX%20113
 	- Attendance not required
 	- Class canceled
 - Week 5
+    - Team check in
 - Week 6
 - Week 7
 - Week 8
