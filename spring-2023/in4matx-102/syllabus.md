@@ -32,6 +32,7 @@ Prerequisite: [In4matx 101](../../winter-2022/in4matx-101/syllabus.md)
     - [Lecture 11](./week6/lecture-11.md)
 - Week 7
     - [Lecture 12](./week7/lecture-12.md)
+    - [Lecture 13](./week7/lecture-13.md)
 - Week 8
 - Week 9
 - Week 10
