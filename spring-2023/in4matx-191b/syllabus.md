@@ -34,5 +34,9 @@ Prerequisites: [IN4MATX 113](https://catalogue.uci.edu/search/?P=IN4MATX%20113
     - Team check in
     - Attendance not required
 - Week 8
+    - Practice expo Presentations
+    - ICS expo (no class)
 - Week 9
+    - Team check in
+    - Attendance not required
 - Week 10
