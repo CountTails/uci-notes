@@ -41,3 +41,4 @@ Prerequisite: [In4matx 101](../../winter-2022/in4matx-101/syllabus.md)
     - [Lecture 16](./week9/lecture-16.md)
 - Week 10
     - No class (cancelled)
+    - [Lecture-17](./week10/lecture-17.md)
