@@ -40,3 +40,5 @@ Prerequisites: [IN4MATX 113](https://catalogue.uci.edu/search/?P=IN4MATX%20113
     - Team check in
     - Attendance not required
 - Week 10
+    - Final demo with sponsor
+    - Attendance not required
