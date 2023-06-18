@@ -19,6 +19,8 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md)
     - [Fundamental Data Types](./week2/fundamental-data-types.md)
     - [Decisions](./week2/decisions.md)
 - Week 3
+    - [Loops](./week3/loops.md)
+    - [Array and Lists](./week3/arrays-and-lists.md)
 - Week 4
 - Week 5
 - Week 6
