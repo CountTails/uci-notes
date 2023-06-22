@@ -22,6 +22,8 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md)
     - [Loops](./week3/loops.md)
     - [Array and Lists](./week3/arrays-and-lists.md)
 - Week 4
+    - [Designing Classes](./week4/designing-classes.md)
+    - [Inheritance](./week4/inheritance.md)
 - Week 5
 - Week 6
 - Week 7
