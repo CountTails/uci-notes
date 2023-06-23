@@ -25,6 +25,8 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md)
     - [Designing Classes](./week4/designing-classes.md)
     - [Inheritance](./week4/inheritance.md)
 - Week 5
+    - [Interfaces (Part 1)](./week5/interfaces-part-1.md)
+    - [Interfaces (Part 2)](./week5/interfaces-part-2.md)
 - Week 6
 - Week 7
 - Week 8
