@@ -31,6 +31,8 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md)
     - [Input/Output and exception handling](./week6/input-output-and-exception-handling.md)
     - [Object Oriented Design](./week6/object-oriented-design.md)
 - Week 7
+    - [Recursion, Searching, Sorting](./week7/recursion-searching-sorting.md)
+    - [Java Collections Framework](./week7/java-collections-framework.md)
 - Week 8
 - Week 9
 - Week 10
