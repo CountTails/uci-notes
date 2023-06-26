@@ -28,6 +28,8 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md)
     - [Interfaces (Part 1)](./week5/interfaces-part-1.md)
     - [Interfaces (Part 2)](./week5/interfaces-part-2.md)
 - Week 6
+    - [Input/Output and exception handling](./week6/input-output-and-exception-handling.md)
+    - [Object Oriented Design](./week6/object-oriented-design.md)
 - Week 7
 - Week 8
 - Week 9
