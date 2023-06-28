@@ -36,4 +36,5 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md)
 - Week 8
     - [Generic Classes](./week8/generic-classes.md)
 - Week 9
+    - [GUIs](./week9/GUIs.md)
 - Week 10
