@@ -38,3 +38,5 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md)
 - Week 9
     - [GUIs](./week9/GUIs.md)
 - Week 10
+    - [Streams (part 1)](./week10/streams-part-1.md)
+    - [Streams (part 2)](./week10/streams-part-2.md)
