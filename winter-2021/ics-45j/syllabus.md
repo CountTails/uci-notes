@@ -34,5 +34,6 @@ Prerequisite: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md)
     - [Recursion, Searching, Sorting](./week7/recursion-searching-sorting.md)
     - [Java Collections Framework](./week7/java-collections-framework.md)
 - Week 8
+    - [Generic Classes](./week8/generic-classes.md)
 - Week 9
 - Week 10
