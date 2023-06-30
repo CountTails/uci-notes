@@ -19,6 +19,8 @@ Prerequisite: Recommended: [I&C SCI 6B](../../summer-2020/ics-6b/syllabus.md)
     - [Mathematical Induction](./week2/math-induction.md)
     - [Strong Induction](./week2/strong-induction.md)
 - Week 3
+    - [Structural Induction](./week3/structural-induction.md)
+    - [Recursion](./week3/recursion.md)
 - Week 4
 - Week 5
 - Week 6
