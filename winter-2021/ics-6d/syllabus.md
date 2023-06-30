@@ -22,6 +22,8 @@ Prerequisite: Recommended: [I&C SCI 6B](../../summer-2020/ics-6b/syllabus.md)
     - [Structural Induction](./week3/structural-induction.md)
     - [Recursion](./week3/recursion.md)
 - Week 4
+    - [Introduction to Counting](./week4/intro-to-counting.md)
+    - [Counting Permutations](./week4/counting-permutations.md)
 - Week 5
 - Week 6
 - Week 7
