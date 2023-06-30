@@ -25,6 +25,9 @@ Prerequisite: Recommended: [I&C SCI 6B](../../summer-2020/ics-6b/syllabus.md)
     - [Introduction to Counting](./week4/intro-to-counting.md)
     - [Counting Permutations](./week4/counting-permutations.md)
 - Week 5
+    - [Counting Subsets](./week5/counting-subsets.md)
+    - [Counting by Complement](./week5/counting-by-complement.md)
+    - [Counting Permutations with Repitition](./week5/counting-permutations-with-repitition.md)
 - Week 6
 - Week 7
 - Week 8
