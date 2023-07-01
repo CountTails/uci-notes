@@ -32,6 +32,7 @@ Prerequisite: Recommended: [I&C SCI 6B](../../summer-2020/ics-6b/syllabus.md)
     - [Counting Subsets with Repetition](./week6/counting-subsets-with-repetition.md)
     - [Balls into Bins](./week6/balls-into-bins.md)
 - Week 7
+    - [Inclusion Exclusion Principle](./week7/inclusion-exclusion-principle.md)
 - Week 8
 - Week 9
 - Week 10
