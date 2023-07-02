@@ -34,5 +34,8 @@ Prerequisite: Recommended: [I&C SCI 6B](../../summer-2020/ics-6b/syllabus.md)
 - Week 7
     - [Inclusion Exclusion Principle](./week7/inclusion-exclusion-principle.md)
 - Week 8
+    - [Modular Arithmetic](./week8/modular-arithmetic.md)
+    - [Divisibility and Primes](./week8/divisibility-and-primes.md)
+    - [Euclid's Algorithm](./week8/euclids-algorithm.md)
 - Week 9
 - Week 10
