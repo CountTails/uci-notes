@@ -38,4 +38,7 @@ Prerequisite: Recommended: [I&C SCI 6B](../../summer-2020/ics-6b/syllabus.md)
     - [Divisibility and Primes](./week8/divisibility-and-primes.md)
     - [Euclid's Algorithm](./week8/euclids-algorithm.md)
 - Week 9
+    - [Number Representation](./week9/number-representation.md)
+    - [Euler, Fermat, CRT](./week9/eulers-fermat-and-crt.md)
+    - [Intro to Cryptography](./week9/intro-to-cryptography.md)
 - Week 10
