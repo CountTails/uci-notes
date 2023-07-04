@@ -42,3 +42,6 @@ Prerequisite: Recommended: [I&C SCI 6B](../../summer-2020/ics-6b/syllabus.md)
     - [Euler, Fermat, CRT](./week9/eulers-fermat-and-crt.md)
     - [Intro to Cryptography](./week9/intro-to-cryptography.md)
 - Week 10
+    - [Binomial Coefficients and Combinatorial Identities](./week10/binomial-coefficient-and-combinatorial-identities.md)
+    - [Generating Functions](./week10/generating-functions.md)
+    - [Intro to Probability](./week10/intro-to-probability.md)
