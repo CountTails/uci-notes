@@ -27,6 +27,9 @@ Prerequisites: [I&C SCI 45C](../../fall-2020/ics-45c/syllabus.md)
     - [Stacks, Queues, and Dequeues](./week3/stacks-queues-dequeues.md)
     - [Amortized Analysis](./week3/amortized-analysis.md)
 - Week 4
+    - [Analyzing Recursion](./week4/analyizing-recursion.md)
+    - [General Trees](./week4/general-trees.md)
+    - [Tree Traversals](./week4/tree-traversals.md)
 - Week 5
 - Week 6
 - Week 7
