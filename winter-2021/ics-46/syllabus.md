@@ -17,6 +17,9 @@ Prerequisites: [I&C SCI 45C](../../fall-2020/ics-45c/syllabus.md)
     - [Contracts and Exceptions](./week1/exceptions.md)
     - [Function and Class Templates](./week1/templates.md)
 - Week 2
+    - [Randomness](./week2/randomness.md)
+    - [RAII and Smart Pointers](./week2/raii-and-smart-pointers.md)
+    - [Multidimensional Data](./week2/multidimensional-data.md)
 - Week 3
 - Week 4
 - Week 5
