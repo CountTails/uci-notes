@@ -21,6 +21,11 @@ Prerequisites: [I&C SCI 45C](../../fall-2020/ics-45c/syllabus.md)
     - [RAII and Smart Pointers](./week2/raii-and-smart-pointers.md)
     - [Multidimensional Data](./week2/multidimensional-data.md)
 - Week 3
+    - [Move Semantics](./week3/move-semantics.md)
+    - [Asymptotic Analysis](./week3/asymptotic-analysis.md)
+    - [Linked List Variations](./week3/linked-list-variations.md)
+    - [Stacks, Queues, and Dequeues](./week3/stacks-queues-dequeues.md)
+    - [Amortized Analysis](./week3/amortized-analysis.md)
 - Week 4
 - Week 5
 - Week 6
