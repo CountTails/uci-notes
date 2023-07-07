@@ -35,6 +35,9 @@ Prerequisites: [I&C SCI 45C](../../fall-2020/ics-45c/syllabus.md)
     - [AVL Trees](./week5/avl-trees.md)
     - [Skip Lists](./week5/skip-lists.md)
 - Week 6
+    - [Hash Tables](./week6/hash-tables.md)
+    - [Priority Queues](./week6/priority-queues.md)
+    - [Graphs](./week6/graphs.md)
 - Week 7
 - Week 8
 - Week 9
