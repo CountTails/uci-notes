@@ -31,6 +31,9 @@ Prerequisites: [I&C SCI 45C](../../fall-2020/ics-45c/syllabus.md)
     - [General Trees](./week4/general-trees.md)
     - [Tree Traversals](./week4/tree-traversals.md)
 - Week 5
+    - [Binary Search Trees](./week5/binary-search-trees.md)
+    - [AVL Trees](./week5/avl-trees.md)
+    - [Skip Lists](./week5/skip-lists.md)
 - Week 6
 - Week 7
 - Week 8
