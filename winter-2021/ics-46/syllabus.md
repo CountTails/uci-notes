@@ -44,5 +44,7 @@ Prerequisites: [I&C SCI 45C](../../fall-2020/ics-45c/syllabus.md)
     - [Shortest Paths](./week7/shortest-paths.md)
     - [Topological Ordering](./week7/topological-ordering.md)
 - Week 8
+    - [Comparison Based Sorting](./week8/comparison-based-sorting.md)
 - Week 9
-- Week 10
+    - [Linear Time Sorting](./week9/linear-time-sorting.md)
+    - [Union Find Algorithm](./week9/union-find-algorithm.md)
