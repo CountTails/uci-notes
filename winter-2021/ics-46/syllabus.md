@@ -39,6 +39,10 @@ Prerequisites: [I&C SCI 45C](../../fall-2020/ics-45c/syllabus.md)
     - [Priority Queues](./week6/priority-queues.md)
     - [Graphs](./week6/graphs.md)
 - Week 7
+    - [Graph Traversals](./week7/graph-traversals.md)
+    - [Graph Connectedness](./week7/graph-connectedness.md)
+    - [Shortest Paths](./week7/shortest-paths.md)
+    - [Topological Ordering](./week7/topological-ordering.md)
 - Week 8
 - Week 9
 - Week 10
