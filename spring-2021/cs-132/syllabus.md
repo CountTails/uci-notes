@@ -13,6 +13,8 @@ Prerequisites: [EECS 55](https://catalogue.uci.edu/search/?P=EECS%2055 "EECS 5
 ## Notes for this class
 
 - Week 1
+    - [What is the Internet](./week1/what-is-the-internet.md)
+    - [Internet Infrastructure](./week1/internet-infrastructure.md)
 - Week 2
 - Week 3
 - Week 4
