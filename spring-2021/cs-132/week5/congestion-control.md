@@ -68,3 +68,70 @@
 	- Multiplicative decrease: cut `cwnd` in half after a loss
 
 ![AIMD CA](./figures/aimd-ca.png)
+
+### Slow start
+
+> Rationale: initial rate is slow but ramps up exponentially fast
+
+- At connection start `cwnd = 1 MSS`
+- Double `cwnd` every `RTT`
+- Can be done by incrementing `cwnd` for each ACK received
+
+![TCP Slow Start](./figures/tcp-slow-start.png)
+
+### Detecting and reacting to loss
+
+- Indicated by timeout
+	- `cwnd` set to 1 MSS
+	- Window grows exponentially to a threshold, then grows linearly
+- Indicated by triple ACK
+	- Duplicate ACKs indicate network can deliver some segments
+	- `cwnd` is cut in half then grows linearly
+
+### Fast recovery
+
+> Main idea: infer successful transmission even from duplicate ACK
+
+- Rationale
+	- Every ACK (even duplicates) is triggered by some new packet that made it (even out of order)
+	- Keep the number of packets in the pipeline constant
+- Action
+	- Fast retransmit upon triple duplicate
+	- Inflate window: increase by 1 MSS per every duplicate ACK received
+	- Deflate window: when new (non-duplicate) ACK received
+- Fast recovery recommended, but not required
+	- Not implemented in TCP Tahoe
+	- Implemented in TCP Reno
+
+## Throughput and fairness
+
+### Average throughput
+
+- Average throughput as a function of window size
+- Ignore slow start, assume always data to send
+- $W$: window size (measured in bytes) where loss occurs
+	- Average window size (# in-flight-bytes) is $\frac{3}{4}W$
+	- Average throughput is $\frac{3}{4}W$ per `RTT`
+
+### Fairness
+
+> Goal: if $K$ TCP sessions share the same bottleneck link of bandwidth $R$, each should have an average rate or $\frac{R}{K}$
+
+#### Why TCP is fair?
+
+- Additive increase gives slope of $1$, as throughput increases
+- Multiplicative decrease decreases throughput proportionally
+
+#### Violation is practice
+
+- Fairness and UDP
+	- Multimedia apps often do **not** use TCP
+	- Do not want rate throttled by congestion control
+	- Pump audio/video at constant rate, tolerating packet loss
+- Fairness and RTT
+	- Flows with longer RTTs get lower rate
+- Fairness and parallel TCP connections
+	- Nothing prevents an app from opening parallel connections between 2 hosts
+	- Web browsers do this
+- Fairness and multi-hop paths
+	- Flows that go over multiple hops compete with more flows
