@@ -13,12 +13,28 @@ Prerequisites: ([I&C SCI 33](../../spring-2020/ics-33/syllabus.md) or CSE 43)
 ## Notes for this class
 
 - Week 1
+    - [Course Introduction](./week1/course-introduction.md)
+    - [Requirements Engineering](./week1/requirements-engineering.md)
 - Week 2
+    - [Requirements Elicitation](./week2/requirement-elicitation.md)
+    - [Stakeholder](./week2/stakeholders.md)
 - Week 3
+    - [Goal Orientation (part 1)](./week3/goal-orientation-part-1.md)
 - Week 4
+    - [Goal Orientation (part 2)](./week4/goal-orientation-part-2.md)
+    - [Goal Orientation (part 3)](./week4/goal-orientation-part-3.md)
 - Week 5
+    - [Usage Model (part 1)](./week5/usage-models-part-1.md)
 - Week 6
+    - [Usage Model (part 2)](./week6/usage-model-part-2.md)
+    - [Class Diagrams (part 1)](./week6/class-diagrams-part-1.md)
 - Week 7
+    - [Class Diagrams (part 2)](./week7/class-diagrams-part-2.md)
 - Week 8
+    - [Writing Requirements](./week8/writing-requirements.md)
 - Week 9
+    - [Requirements Negotiation](./week9/requirements-negotiation.md)
+    - [Requirements Validation](./week9/requirements-validation.md)
 - Week 10
+    - [Requirements Traceability](./week10/requirements-traceability.md)
+    - [Agile Methodologies](./week10/agile-methodologies.md)
