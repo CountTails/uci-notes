@@ -50,7 +50,20 @@ This repository is a work-in-progress, notes will be added gradually (both past 
 
 - [IN4MATX 113](./spring-2021/in4matx-113/syllabus.md)
 - [IN4MATX 131](./spring-2021/in4matx-131/syllabus.md)
-- [CS 132](./spring-2021/cs-132/syllabus.md)
+- [COMPSCI 132](./spring-2021/cs-132/syllabus.md)
+
+### 2021-2022
+
+#### Fall 2021
+
+- [COMPSCI 122A](./fall-2021/cs-122a/syllabus.md)
+- [COMPSCI 143A](./fall-2021/cs-143a/syllabus.md)
+- [IN4MATX 115](./fall-2021/in4matx-115/syllabus.md)
+- [IN4MATX 121](./fall-2021/in4matx-121/syllabus.md)
+
+#### Winter 2022
+
+#### Spring 2022
 
 ### 2022-2023
 
