@@ -1,2 +1,5 @@
 # editor config
-.obsidian
+src/.obsidian/
+
+# mdbook output
+book/
