@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+    app:
+        container_name: university-notebook
+        image: university-notebook
+        build:
+            context: .
+            dockerfile: Dockerfile
+        restart: always
+        ports:
+            - "8081:8080"
