@@ -1,86 +1,51 @@
 # Lecture 15
 
-## Design method
+## Feature comparison
 
-- A **self-contained**, structured **technique** that guides a designer in advancing some aspect of the design project at hand
-- Serves as a bridge from the overall process of design to actual individual and collaborative design work
+> Feature comparison is the process of conducting research to learn about the features of competing products
 
-## Characteristic of design methods
+### Procedure
 
-- **Each design method suits a specific purpose** with respect to the design cycle and overall design project
-- Each design method expects a certain context for it to lead to optimal results
-- **Applying just one design methods rarely suffices** but still may help
+1) Identify **competitors** and their products
+2) Establish **dimensions** for comparison
+3) Conduct **research**
+4) Analyze **results**
 
-## Software design methods
+### Result analysis
 
-### Application design
+#### Comparison matrix
 
-- Analysis methods
-    - Competitive testing
-    - Contextual inquiry
-    - Feature comparison
-    - Stakeholder analysis
-    - Task analysis
-- Synthesis methods
-    - Affinity diagramming
-    - Concept mapping
-    - Mind mapping
-    - Morphological chart
-- Evaluation methods
-    - Requirements review
-    - Role playing
-    - Wizard of Oz
+![Comparison Matrix](./figures/comparison-matrix.png)
 
-### Interaction design
+#### Radar chart
 
-- Analysis methods
-    - Critical incident technique
-    - Interaction logging
-    - Personas
-    - Scenarios
-- Synthesis methods
-    - Design/making
-    - Participatory design
-    - Prototyping
-    - Storyboarding
-- Evaluation methods
-    - Cognitive walkthrough
-    - Evaluative research
-    - Heuristic evaluation
-    - Think-aloud protocol
+![Radar Chart](./figures/radar-chart.png)
 
-### Architecture design
+#### Parallel coordinates chart
 
-- Analysis methods
-    - Framework assessment
-    - Model-driven engineering
-    - Quality-function-development
-    - Reverse engineering
-    - World modeling
-- Synthesis methods
-    - Architectural styles
-    - Generative programming
-    - Component reuse
-    - Decomposition
-- Evaluation methods
-    - Formal verification
-    - Simulation
-    - Weighted objectives
+![Parallel Coordinates Chart](./figures/parallel-coordinates-chart.png)
 
-### Implementation design
+### Criteria for successful use
 
-- Analysis methods
-    - Release planning
-    - Summarization
-    - Test-driven design
-    - Visualization
-- Synthesis methods
-    - Pair programming
-    - Refactoring
-    - Search
-    - Software patterns
-- Evaluation methods
-    - Correctness proofs
-    - Inspections/reviews
-    - Parallel deployment
-    - Testing
+- Direct or indirect **access to the specifications** of the competing products
+- Creation of a meaningful set of **dimensions** for comparison
+- Choice of an appropriate **metric** for comparison
+- **Appropriate depth of analysis**
+
+### Strengths and weaknesses
+
+| Strengths | Weaknesses |
+| --------- | ---------- |
+| Helps identify key competitors | Focuses on the present, not what competing products might look like in the (near) future |
+| Creates a detailed account of competing products | Reinforces existing boundaries, perhaps stifling creativity |
+| Builds an understanding of the full landscape as it exists today | *Lightweight design method* |
+| *Lightweight design method* | |
+
+## Competitive testing
+
+> Similar to feature comparison, **but you are actually going to use the other product**
+
+1) Identify competitors and their products and **get access to them**
+2) Establish dimensions for comparison
+3) Conduct research **by using the products**
+4) Analyze results

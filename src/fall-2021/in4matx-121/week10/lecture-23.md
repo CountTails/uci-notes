@@ -1,51 +1,26 @@
 # Lecture 23
 
-## Experts agree to disagree
+## Questions answered by this course
 
-- Stop and take a break
-- Come back to the issue later
-- Prevent arguments from getting personal
+- What is (software) design?
+- How to engage in good software design?
+- What are the habits of professional software designers?
 
-## Experts use design methods (selectively)
+> To decide upon a plan for a novel change in the world that, when realized, satisfies stakeholders
 
-- Will most likely need to use more than one
-- Will not be able to utilize all of them
+## From software life cycles to design methods
 
-## Experts externalize their thoughts
+![Realistic Design Process](./figures/realistic-design-process.png)
 
-- Draw or write stuff down
-- Do not keep things in your head
+> Which set of design methods is appropriate to use, when, to successfully complete a design project?
 
-## Experts keep sketches
+![Life cycles to methods](./figures/life-cycles-to-methods.png)
 
-- May help solve future problems
+## Summary
 
-## Experts keep options open
+- Understand all of the design activities that take place in software engineering
+- Significant shift to this kind of overall approach to software development (innovation, creativity, design)
+- If you just pick up one method, at one moment in time, and it helps you, that would be an important result
+- Design methods are much more broadly applicable than the specific "box" in which they are placed
 
-- Create systems that can be extended
-
-## Experts adjust to the degree of uncertainty present
-
-- Original design: requires a lot of research
-- Adaptive design: take previous design and adapt to current situation
-- Routine design: simply borrow from others
-
-## Experts explore different perspectives
-
-- Different design fields
-- Different types of users
-
-## Experts play the fool
-
-- Role playing games
-- Wizard of Oz
-
-## Experts curtail digressions
-
-- Keep discussion relevant
-- Do not go off topics
-
-## Experts retain the orientation
-
-- Keeps goals in minds
-- Decide which goals have the highest priority
+> You start **thinking like expert designers do** and reflect upon your own practice in terms of what is known about expert design behavior

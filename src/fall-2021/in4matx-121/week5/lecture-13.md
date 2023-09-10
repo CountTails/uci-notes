@@ -1,77 +1,23 @@
 # Lecture 13
 
-## A few more expert behaviors
+## UML association
 
-### Solve simpler problems first
+- Most general kind of relationship
 
-- Any complex problem can be broken down into simpler subproblems
-- Solve the simpler subproblem first
-- Add layers of complexity and adapt the solution as needed
+![UML Association](./figures/uml-association.png)
 
-### Draw problems as much as the solution
+## UML aggregation
 
-- Visualizing the problem helps generate solution
-- Visualizing solutions helps communicate ideas
+- More specific kind of relationship
+- *Has-a* relationship or *is-a-part-of* relationship
+- Child **can exist independently** of the parent
 
-### Move among levels of abstraction
+![UML Aggregation](./figures/uml-aggregation.png)
 
-- Design around the system level
-- Design around the protocol level
-- Design around everything in between
+## UML Composition
 
-### Go as deep as needed
+- Even more specific kind of relationship
+- *Consists-of* relationship or *contains* relationship
+- Child **cannot exist independently** of the parent
 
-- Unmask as match detail as needed
-- Communicate with others to get feedback
-
-### Simulate continually
-
-- Simulate the problem throughout the design process
-- Ask if the software is working before it existed
-
-### Be alert to evidence that challenges their theory
-
-- Ignoring warnings leads to bugs and faults
-- Catch issues before they are embedded in code
-
-### Think about what you are not designing
-
-- What is missing from the design?
-- Think that some feature may exist someday
-
-### Invest time now to save it later
-
-- Think hard about design now
-- Save time later for adding features
-- Don't invest in future features, but invest for extendibility
-
-## Introduction to UML
-
-### History
-
-- Notations for
-    - Thinking
-    - Talking
-    - Prescribing
-- Software
-    - Choose a notation to prescribe
-    - Choose a notation to talk
-    - Choose a notation to think
-
-![UML History](./figures/history-of-uml.png)
-
-### Basics
-
-- Classes represent entities in software
-    - Can be just a name
-    - Can include attributes and operations later
-    - Generalizations help model inheritance in OOP
-- Express relationship between classes
-    - Associations
-    - Multiplicities
-    - Aggregation
-    - Composition
-    - Ordered role
-    - Qualified association
-    - Navigability
-    - Dependencies
+![UML Composition](./figures/uml-composition.png)

@@ -1,58 +1,52 @@
 # Lecture 21
 
-## Storyboarding
+## Heuristic evaluation
 
-> Storyboarding is the process of **visually communicating expected interactions** in context
-
-### Procedure
-
-1) Decide upon interaction
-2) Decide upon story to be told
-3) Decide upon level of artistic detail
-4) Draw and annotate story
-5) Iterate
-
-### Criteria for successful use
-
-- Develop short effective stories
-- Apply a strong sense of aesthetics
-- Must be open to storyboarding multiple ideas
-- Should have a definite sense of possible solutions
-- Collaborate
-
-### Strengths and weaknesses
-
-| Strengths | Weaknesses |
-| --------- | ---------- |
-| Tangible nature invites early feedback | Stops well short of designing the actual interface in detail |
-| Brings an increased focus on how the users might expect to interact with the product | It will be incomplete: might distance the designer from undocumented storyboards |
-| Builds a shared understanding of the audience and interactions among the design team | Can be difficult to ensure that the storyboards represent the audience accurately |
-| Provides an implicit baseline for future design ideas | |
-
-## Prototyping
-
-> Prototyping is process of creating **tangible artifacts embedding the envisioned design** solution
+> Heuristic evaluation is the process of **assessing a user interface against** a standard set of *criteria*
 
 ### Procedure
 
-1) Decide the purpose
-2) Decide the fidelity and medium
-    - Low fidelity: paper prototype
-    - Medium fidelity: wireframes and mock-ups
-    - High fidelity: actual running software
-3) Create the prototype
+1) Choose heuristics
+    - [Nielsen's heuristics of user interface design](https://www.nngroup.com/articles/ten-usability-heuristics/)
+    - Gerhardt-Powals' cognitive engineering principles
+    - Standards (accessibility, responsive design, color guides)
+    - Internal, company guidelines
+2) Choose evaluators
+    - Choose the number of evaluators (3-5 typically)
+    - Choose required background
+3) Identify goal of the interface
+4) Define a set of representative tasks
+5) Perform tasks
+6) Tabulate results
 
 ### Criteria for successful use
 
-- Strong sense of aesthetics and attention to detail
-- Must be open to prototyping multiple design ideas
-- Should have a definite sense of possible solutions
-- Collaborate
+- The evaluators must be well-versed in the heuristics
+- Application of multiple evaluators
+- Requires attention to detail
 
-### Strengths and weaknesses
+### Strengths and weaknesses 
 
 | Strengths | Weaknesses |
 | --------- | ---------- |
-| Tangible nature invites early yet detailed feedback | The higher fidelity, the more expensive the endeavor |
-|Low fidelity prototyping is a *lightweight* approach that sill yields *good results* | Could lead to too much focus on the visual appearance instead of the supporting the actual tasks at hand |
-|Tool support is readily available | |
+| Is based on best practices | Focuses on problems, does not identify opportunities |
+| Useful to iron out problems before testing with real users | Will not uncover all problems, because of a focus on a given set of heuristics |
+| Can be performed relatively quickly | |
+| Can be used on early design artifacts | |
+| Result sharing improves design practice | |
+
+## Architecture
+
+- The conceptual core
+- That what really makes it work
+- Principal set of design decisions
+- Essence of the solution
+
+### Essence
+
+- Components and connectors
+- Data model
+- Protocol
+- Interface
+- Naming
+- Algorithm

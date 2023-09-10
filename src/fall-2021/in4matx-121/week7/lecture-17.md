@@ -1,4 +1,4 @@
-# Lecture 18
+# Lecture 17
 
 ## Mind mapping
 

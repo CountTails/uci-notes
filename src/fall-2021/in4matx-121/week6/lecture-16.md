@@ -1,51 +1,54 @@
 # Lecture 16
 
-## Feature comparison
+## Contextual inquiry
 
-> Feature comparison is the process of conducting research to learn about the features of competing products
+> Contextual inquiry is the process of **observing and interviewing a user in context** -- while they are engaged in the actual setting of life that might be impacted by your future change in the world
 
-### Procedure
+## Procedure
 
-1) Identify **competitors** and their products
-2) Establish **dimensions** for comparison
-3) Conduct **research**
-4) Analyze **results**
+1) Plan
+    - Decide, beforehand, the purpose of the contextual inquiry
+    - What type of information, settings and users
+2) Identify users
+    - Draw an advertisement in the newspaper
+    - Social media recruiting
+    - Ask client for access to representative users
+    - Use an external recruitment service to target particular (typically representative) demographics
+3) Schedule and conduct visits
+    - 2-3 hour visit
+    - Master-apprentice model
+        - Observer takes note of what the user does
+        - User shares their thoughts on the work they perform
+        - Observer inquires why the user does what they do
+        - Observer takes notes
+    - Ideally, a contextual inquiry becomes a rich conversation
+        - Shared stories and insights
+        - Clarified interpretations
+4) Analyze the data
+    - 90% of the time, the existing software is used one way, but 10% of the time, an exceptional use occurs
+    - A small number of users circumvent the existing software system by passing paper notes back and forth
+    - Users of the future software system have goals that do not align with management's goal
 
-### Result analysis
+## Criteria for successful use
 
-#### Comparison matrix
+- Access to the "right" users involved in the "right" activities
+- Extensive sharing
+- Ability to expand inquiry
+- A strong focus on **why and why not** questions
 
-![Comparison Matrix](./figures/comparison-matrix.png)
-
-#### Radar chart
-
-![Radar Chart](./figures/radar-chart.png)
-
-#### Parallel coordinates chart
-
-![Parallel Coordinates Chart](./figures/parallel-coordinates-chart.png)
-
-### Criteria for successful use
-
-- Direct or indirect **access to the specifications** of the competing products
-- Creation of a meaningful set of **dimensions** for comparison
-- Choice of an appropriate **metric** for comparison
-- **Appropriate depth of analysis**
-
-### Strengths and weaknesses
+## Strengths and weaknesses
 
 | Strengths | Weaknesses |
 | --------- | ---------- |
-| Helps identify key competitors | Focuses on the present, not what competing products might look like in the (near) future |
-| Creates a detailed account of competing products | Reinforces existing boundaries, perhaps stifling creativity |
-| Builds an understanding of the full landscape as it exists today | *Lightweight design method* |
-| *Lightweight design method* | |
+| Reveals underlying and often invisible work structure | Users may not know the answers to the important questions |
+| Involves actual users | Steeped in current practices, perhaps stifling creativity |
+| Exposes rationale | Observer bias |
+| Can challenge assumptions held by the designer | Lessons that can be learned depend strongly on the activities being performed by the user |
+| Not as involved as a full ethnography, but can still yield very usable insights and results | Stops short of analysis |
 
-## Competitive testing
+## Variants
 
-> Similar to feature comparison, **but you are actually going to use the other product**
-
-1) Identify competitors and their products and **get access to them**
-2) Establish dimensions for comparison
-3) Conduct research **by using the products**
-4) Analyze results
+- Contextual design
+- Questionnaire
+- Ethnography
+- Interview
