@@ -9,7 +9,7 @@ title = "University Notebook"
 git-repository-url = "https://github.com/nathancmendoza/school-notes"
 git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/nathancmendoza/school-notes/edit/main/{path}"
-site-url = "https://university-notebook.ncm.dev"
+site-url = "https://notes.ncm.dev/uci/"
 
 [output.html.fold]
 enable = true    # whether or not to enable section folding
