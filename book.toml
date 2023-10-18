@@ -3,7 +3,7 @@ authors = ["Nathan Mendoza"]
 language = "en"
 multilingual = false
 src = "src"
-title = "University Notebook"
+title = "UCI Notebook"
 
 [output.html]
 git-repository-url = "https://github.com/nathancmendoza/school-notes"
