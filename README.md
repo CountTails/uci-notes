@@ -2,9 +2,9 @@
 
 ## Description
 
-This is a monorepo for all notes that have been taken during my time as an undergraduate student at [UC Irvine](https://www.uci.edu)
+This is a monorepo for all notes that have been taken during my time as an undergraduate student at [UC Irvine](https://www.uci.edu). While this does **not** cover all the notes for *every* class that I took, it focuses on courses that are major requirements or closely related to the major of [Software Engineering](https://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/softwareengineering_bs/#text)
 
-This repository is a work-in-progress, notes will be added gradually (both past and present)
+This repository is a complete, but improvements or corrections to notes are on the table.
 
 ## Courses in this repository
 
@@ -63,7 +63,15 @@ This repository is a work-in-progress, notes will be added gradually (both past 
 
 #### Winter 2022
 
+- [COMPSCI 161](src/winter-2022/cs-161/syllabus.md)
+- [IN4MATX 101](src/winter-2022/in4matx-101/syllabus.md)
+- [Spanish 1A](src/winter-2022/spanish-1a/syllabus.md)
+
 #### Spring 2022
+
+- [COMPSCI 165](src/spring-2022/cs-165/syllabus.md)
+- [IN4MATX 124](src/spring-2022/in4matx-124/syllabus.md)
+- [Spanish 1B](src/spring-2022/spanish-1b/syllabus.md)
 
 ### 2022-2023
 
