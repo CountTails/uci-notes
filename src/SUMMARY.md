@@ -250,7 +250,6 @@
     - [2d arrays](fall-2020/ics-51/week9/2d-arrays.md)
     - [Multicycle datapath](fall-2020/ics-51/week10/multicycle-datapath.md)
     - [Pipeline datapath](fall-2020/ics-51/week10/pipeline-datapath.md)
-- [I&C SCI 193](fall-2020/ics-193/syllabus.md)
 - [IN4MATX 43](fall-2020/in4matx-43/syllabus.md)
     - [Lecture 1](fall-2020/in4matx-43/week1/lecture-1.md)
     - [Lecture 2](fall-2020/in4matx-43/week1/lecture-2.md)
