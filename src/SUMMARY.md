@@ -1,5 +1,7 @@
 # University Notebook
 
+[Introducation](PREFACE.md)
+
 # Fall 2019
 
 - [I&C SCI 31](./fall-2019/ics-31/syllabus.md)
