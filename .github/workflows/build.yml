@@ -8,14 +8,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install cargo-hack from crates.io
+        uses: baptiste0928/cargo-install@v2
+        with:
+          crate: mdbook-katex
+
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v1
         with:
           mdbook-version: 'latest'
 
-      - name: Setup mdbook-katex
-        uses: magicgh/mdbook-katex-action@v1
-        with:
-          version: 'latest'
-      
       - run: 'mdbook build'
