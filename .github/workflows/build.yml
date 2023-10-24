@@ -1,0 +1,21 @@
+name: check build
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup mdBook
+        uses: peaceiris/actions-mdbook@v1
+        with:
+          mdbook-version: 'latest'
+
+      - name: Setup mdbook-katex
+        uses: magicgh/mdbook-katex-action@v1
+        with:
+          version: 'latest'
+      
+      - run: 'mdbook build'
