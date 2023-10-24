@@ -8,7 +8,7 @@ Units: 4 units
 
 Summary: Computer network architectures, protocols, and applications. Internet congestion control, addressing, and routing. Local area networks. Multimedia networking.
 
-Prerequisites: [EECS 55](https://catalogue.uci.edu/search/?P=EECS%2055 "EECS 55") or [STATS 67](../../summer-2020/stats-67/syllabus.md)
+Prerequisites: [STATS 67](../../summer-2020/stats-67/syllabus.md)
 
 ## Notes for this class
 

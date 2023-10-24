@@ -8,7 +8,7 @@ Units: 4
 
 Summary: Techniques for efficient algorithm design, including divide-and-conquer and dynamic programming, and time/space analysis. Fast algorithms for problems applicable to networks, computer games, and scientific computing, such as sorting, shortest paths, minimum spanning trees, network flow, and pattern matching.
 
-Prerequisites: [I&C SCI 46](../../winter-2021/ics-46/syllabus.md) and [I&C SCI 6B](../../summer-2020/ics-6b/syllabus.md) and [I&C SCI 6D](../../winter-2021/ics-6d/syllabus.md) and [MATH 2B](https://catalogue.uci.edu/search/?P=MATH%202B)
+Prerequisites: [I&C SCI 46](../../winter-2021/ics-46/syllabus.md) and [I&C SCI 6B](../../summer-2020/ics-6b/syllabus.md) and [I&C SCI 6D](../../winter-2021/ics-6d/syllabus.md) and AP Calculus BC with a minimum score of 4
 
 ## Notes for this class
 

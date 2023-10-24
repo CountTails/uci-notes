@@ -8,7 +8,7 @@ Units: 4 Units
 
 Summary: Differential and integral calculus of real-valued functions of several real variables, including applications. Polar coordinates.
 
-Prerequisites: Prerequisite: [MATH 2B](https://catalogue.uci.edu/search/?P=MATH%202B "MATH 2B") or [MATH 5B](https://catalogue.uci.edu/search/?P=MATH%205B "MATH 5B") or [MATH 7B](https://catalogue.uci.edu/search/?P=MATH%207B "MATH 7B") or AP Calculus BC. AP Calculus BC with a minimum score of 4
+Prerequisites: AP Calculus BC with a minimum score of 4
 
 ## Notes for this class
 

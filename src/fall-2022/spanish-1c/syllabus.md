@@ -8,7 +8,7 @@ Units: 5 units
 
 Summary: Third quarter of Fundaments of Spanish that helps students develop basic reading, listening, speaking, and writing skills in Spanish. Delivered in a hybrid format.
 
-Prerequisite: [SPANISH 1AB](https://catalogue.uci.edu/search/?P=SPANISH%201AB "SPANISH 1AB") or [SPANISH 1B](https://catalogue.uci.edu/search/?P=SPANISH%201B "SPANISH 1B") or [SPANISH S1AB](https://catalogue.uci.edu/search/?P=SPANISH%20S1AB "SPANISH S1AB"). [SPANISH 1AB](https://catalogue.uci.edu/search/?P=SPANISH%201AB "SPANISH 1AB") with a grade of C or better. [SPANISH 1B](https://catalogue.uci.edu/search/?P=SPANISH%201B "SPANISH 1B") with a grade of C or better. [SPANISH S1AB](https://catalogue.uci.edu/search/?P=SPANISH%20S1AB "SPANISH S1AB") with a grade of B or better. Placement into [SPANISH 1C](https://catalogue.uci.edu/search/?P=SPANISH%201C "SPANISH 1C") is also accepted.
+Prerequisite: [SPANISH 1B](../../spring-2022/spanish-1b/syllabus.md)
 
 ## Notes for this class
 

@@ -8,7 +8,7 @@ Units: 4
 
 Summary: Introduction to application design: designing the overall functionality of a software application. Topics include general design theory, software design theory, and software architecture. Includes practice in designing and case studies of existing designs.
 
-Prerequisites: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md) or CSE 43 or [GDIM 33](https://catalogue.uci.edu/search/?P=GDIM%2033 "GDIM 33").
+Prerequisites: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md)
 
 ## Notes for this class
 

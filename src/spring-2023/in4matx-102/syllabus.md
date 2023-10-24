@@ -1,4 +1,4 @@
-# In4matx 102 Syllabus
+# IN4MATX 102 Syllabus
 
 ## Course description
 
@@ -8,7 +8,7 @@ Units: 4
 
 Summary: In-depth study of major programming paradigms: imperative, functional, declarative, object-oriented, and aspect-oriented. Understanding the role of programming languages in software development and the suitability of languages in context. Domain-specific languages. Designing new languages for better software development support.
 
-Prerequisite: [In4matx 101](../../winter-2022/in4matx-101/syllabus.md)
+Prerequisite: [IN4MATX 101](../../winter-2022/in4matx-101/syllabus.md)
 
 ## Notes for this class
 
