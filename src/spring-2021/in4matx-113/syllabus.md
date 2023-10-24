@@ -1,4 +1,4 @@
-# In4matx 113 Syllabus
+# IN4MATX 113 Syllabus
 
 ## Course description
 
@@ -8,7 +8,7 @@ Units: 4 units
 
 Summary: Equips students to develop techniques of software-intensive systems through successful requirements analysis techniques and requirements engineering. Students learn systematic process of developing requirements through cooperative problem analysis, representation, and validation.
 
-Prerequisites: ([I&C SCI 33](../../spring-2020/ics-33/syllabus.md) or CSE 43) and [IN4MATX 43](../../fall-2020/in4matx-43/syllabus.md). 
+Prerequisites: [I&C SCI 33](../../spring-2020/ics-33/syllabus.md) and [IN4MATX 43](../../fall-2020/in4matx-43/syllabus.md). 
 
 ## Notes for this class
 

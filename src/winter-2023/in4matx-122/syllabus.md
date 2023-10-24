@@ -1,4 +1,4 @@
-# In4matx 122 Syllabus
+# IN4MATX 122 Syllabus
 
 ## Course description
 
@@ -8,7 +8,7 @@ Units: 4
 
 Summary: Introduction to implementation design: designing the internals of a software application. Topics include design aesthetics, design implementation, design recovery, design patterns, and component reuse. Includes practice in designing and case studies of existing designs.
 
-Prerequisites: ([I&C SCI 45J](https://catalogue.uci.edu/search/?P=I%26C%20SCI%2045J "I&C SCI 45J") or [I&C SCI 46](https://catalogue.uci.edu/search/?P=I%26C%20SCI%2046 "I&C SCI 46") or IN4MATX 45) and ([IN4MATX 101](https://catalogue.uci.edu/search/?P=IN4MATX%20101 "IN4MATX 101") or [COMPSCI 141](https://catalogue.uci.edu/search/?P=COMPSCI%20141 "COMPSCI 141") or CSE 141)
+Prerequisites: [I&C SCI 45J](../../winter-2021/ics-45j/syllabus.md) or [I&C SCI 46](../../winter-2021/ics-46/syllabus.md) and [IN4MATX 101](../../winter-2022/in4matx-101/syllabus.md)
 
 ## Notes for this class
 

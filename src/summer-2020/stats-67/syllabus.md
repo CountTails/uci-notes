@@ -8,7 +8,7 @@ Units: 4 units
 
 Summary: Introduction to the basic concepts of probability and statistics with discussion of applications to computer science.
 
-Prerequisites:  [MATH 2B](https://catalogue.uci.edu/search/?P=MATH%202B "MATH 2B")
+Prerequisites: AP Calculus BC with a minimum score of 4
 
 ## Notes for this class
 

@@ -1,4 +1,4 @@
-# In4matx 191B Syllabus
+# IN4MATX 191B Syllabus
 
 ## Course description
 
@@ -8,7 +8,7 @@ Units: 4
 
 Summary: Group supervised project in which students analyze, specify, design, construct, evaluate, and adapt a significant information processing system. Topics include team management, professional ethics, and systems analysis.
 
-Prerequisites: [IN4MATX 113](https://catalogue.uci.edu/search/?P=IN4MATX%20113 "IN4MATX 113") and [IN4MATX 121](https://catalogue.uci.edu/search/?P=IN4MATX%20121 "IN4MATX 121") and [IN4MATX 131](https://catalogue.uci.edu/search/?P=IN4MATX%20131 "IN4MATX 131") and [IN4MATX 151](https://catalogue.uci.edu/search/?P=IN4MATX%20151 "IN4MATX 151")
+Prerequisites: Completion of [IN4MATX 191A](../../winter-2023/in4matx-191a/syllabus.md)
 
 ## Notes for this class
 

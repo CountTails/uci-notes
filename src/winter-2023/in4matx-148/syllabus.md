@@ -1,4 +1,4 @@
-# In4matx 148 Syllabus
+# IN4MATX 148 Syllabus
 
 ## Course description
 

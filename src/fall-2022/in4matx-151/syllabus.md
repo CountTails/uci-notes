@@ -8,7 +8,7 @@ Units: 4 units
 
 Summary: Introduces theoretical and practical aspects of project management. Topics include organizational theory, group behavior, project management skills, case studies, personal and group productivity tools, management of distributed work, stakeholders, consultants, and knowledge management. Students do a project exercise.
 
-Prerequisite: [IN4MATX 43](https://catalogue.uci.edu/search/?P=IN4MATX%2043 "IN4MATX 43")
+Prerequisite: [IN4MATX 43](../../fall-2020/in4matx-43/syllabus.md)
 
 ## Notes for this class
 

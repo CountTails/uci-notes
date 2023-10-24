@@ -8,7 +8,7 @@ Units: 4 units
 
 Summary: Introduction to human-computer interaction programming. Emphasis on current tools, standards, methodologies for implementing effective interaction designs. Widget toolkits, Web interface programming, geo-spatial and map interfaces, mobile phone interfaces.
 
-Prerequisite: [I&C SCI 45J](https://catalogue.uci.edu/search/?P=I%26C%20SCI%2045J "I&C SCI 45J") or [I&C SCI 45C](https://catalogue.uci.edu/search/?P=I%26C%20SCI%2045C "I&C SCI 45C"). [I&C SCI 45J](https://catalogue.uci.edu/search/?P=I%26C%20SCI%2045J "I&C SCI 45J") with a grade of C or better. [I&C SCI 45C](https://catalogue.uci.edu/search/?P=I%26C%20SCI%2045C "I&C SCI 45C") with a grade of C or better
+Prerequisite: [I&C SCI 45J](../../winter-2021/ics-45j/syllabus.md) or [I&C SCI 45C](../../fall-2020/ics-45c/syllabus.md)
 
 ## Notes for this class
 

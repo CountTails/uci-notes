@@ -1,4 +1,4 @@
-# In4matx 43 Syllabus
+# IN4MATX 43 Syllabus
 
 ## Course description
 

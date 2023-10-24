@@ -8,7 +8,7 @@ Units: 4 Units
 
 Summary: Systems of linear equations, matrix operations, determinants, eigenvalues and eigenvectors, vector spaces, subspaces, and dimension.
 
-Prerequisite: [MATH 2B](https://catalogue.uci.edu/search/?P=MATH%202B "MATH 2B") or [MATH 5B](https://catalogue.uci.edu/search/?P=MATH%205B "MATH 5B") or [MATH 7B](https://catalogue.uci.edu/search/?P=MATH%207B "MATH 7B") or AP Calculus BC. AP Calculus BC with a minimum score of 4
+Prerequisite: Calculus BC with a minimum score of 4
 
 ## Notes for this class
 
